@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the key differences between containers and virtual machines, including performance, resource usage, and isolation.",
+      "hint": "Containers share the host OS kernel, whereas VMs have their own OS.",
+      "id": 1,
+      "question": "What are containers and how do they differ from virtual machines?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how containerization works and its benefits for software deployment.",
+      "hint": "Containerization packages an application with its dependencies into a standardized unit.",
+      "id": 2,
+      "question": "Explain the concept of containerization."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the basic concepts and components of Docker, such as images, containers, and Docker Hub.",
+      "hint": "Docker uses images to create containers and Docker Hub to store images.",
+      "id": 3,
+      "question": "What is Docker and how does it work?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the syntax and components of a Dockerfile, including common instructions like FROM, RUN, and CMD.",
+      "hint": "A Dockerfile is a script that contains a series of instructions on how to build a Docker image.",
+      "id": 4,
+      "question": "Describe the structure of a Dockerfile."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the steps and Docker commands involved in building and running a container.",
+      "hint": "Use 'docker build' to create an image and 'docker run' to start a container.",
+      "id": 5,
+      "question": "How do you build and run a Docker container from a Dockerfile?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of Docker Compose and how it simplifies multi-container applications.",
+      "hint": "Docker Compose uses a YAML file to define and manage multi-container Docker applications.",
+      "id": 6,
+      "question": "What is Docker Compose and how is it used?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the role of Docker volumes in data persistence and sharing data between containers.",
+      "hint": "Volumes are used to store data outside of the container's filesystem to persist data.",
+      "id": 7,
+      "question": "What are Docker volumes and why are they important?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the steps to create Docker networks and connect containers to these networks.",
+      "hint": "Use 'docker network create' to create networks and 'docker network connect' to link containers.",
+      "id": 8,
+      "question": "How do you create and manage Docker networks?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the role of Kubernetes in container orchestration and its interaction with Docker.",
+      "hint": "Kubernetes automates the deployment, scaling, and management of containerized applications.",
+      "id": 9,
+      "question": "What is Kubernetes and how does it relate to Docker?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the main components of a Kubernetes cluster, including the master node, worker nodes, and key services.",
+      "hint": "Components include the API server, etcd, scheduler, controller manager, and kubelet.",
+      "id": 10,
+      "question": "Describe the architecture of a Kubernetes cluster."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of a Pod in Kubernetes and its significance.",
+      "hint": "A Pod is the smallest deployable unit in Kubernetes, representing a single instance of a running process.",
+      "id": 11,
+      "question": "What is a Kubernetes Pod?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the YAML structure for defining a Pod and the steps to deploy it.",
+      "hint": "Use 'kubectl apply -f' to deploy a Pod defined in a YAML file.",
+      "id": 12,
+      "question": "How do you define and deploy a Pod in Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the purpose of services in Kubernetes and how they enable communication between Pods.",
+      "hint": "Services provide a stable endpoint for accessing Pods, even as they scale or change.",
+      "id": 13,
+      "question": "What are Kubernetes services and how do they work?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how namespaces are used to organize and manage resources in a Kubernetes cluster.",
+      "hint": "Namespaces create isolated environments within a single Kubernetes cluster.",
+      "id": 14,
+      "question": "Explain the concept of Kubernetes namespaces."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the methods and commands used to scale Pods in a Kubernetes deployment.",
+      "hint": "Use 'kubectl scale' or a Horizontal Pod Autoscaler (HPA) to scale applications.",
+      "id": 15,
+      "question": "How do you scale applications in Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of a Deployment in Kubernetes and its features.",
+      "hint": "Deployments manage the desired state for Pods, including updates and rollbacks.",
+      "id": 16,
+      "question": "What is a Kubernetes Deployment?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the steps and benefits of performing rolling updates in a Kubernetes Deployment.",
+      "hint": "Rolling updates gradually replace old Pods with new ones to minimize downtime.",
+      "id": 17,
+      "question": "How do you perform rolling updates in Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the use case and features of a StatefulSet in Kubernetes.",
+      "hint": "StatefulSets manage stateful applications, ensuring ordered deployment and stable network identities.",
+      "id": 18,
+      "question": "What is a Kubernetes StatefulSet?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of ConfigMaps and Secrets and how they are used.",
+      "hint": "ConfigMaps store configuration data; Secrets store sensitive data like passwords.",
+      "id": 19,
+      "question": "What are ConfigMaps and Secrets in Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the concepts of PersistentVolume (PV) and PersistentVolumeClaim (PVC) in Kubernetes.",
+      "hint": "PVs provide storage resources, while PVCs request storage for Pods.",
+      "id": 20,
+      "question": "How do you manage persistent storage in Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of Docker images and the process of creating one.",
+      "hint": "Docker images are built from Dockerfiles using the 'docker build' command.",
+      "id": 21,
+      "question": "What is a Docker image and how is it created?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of container orchestration and common tools used for it.",
+      "hint": "Orchestration automates deployment, scaling, and management of containers; tools include Kubernetes, Docker Swarm, and Mesos.",
+      "id": 22,
+      "question": "What is container orchestration?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the different networking modes available in Docker and Kubernetes.",
+      "hint": "Networking modes include bridge, host, and overlay; Kubernetes uses CNI plugins for networking.",
+      "id": 23,
+      "question": "How do you handle container networking?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the sidecar container pattern and its use cases.",
+      "hint": "Sidecar containers run alongside main containers in a Pod to provide auxiliary functions.",
+      "id": 24,
+      "question": "What is a sidecar container pattern?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe best practices for securing Docker containers.",
+      "hint": "Use minimal base images, run containers as non-root, and regularly update images.",
+      "id": 25,
+      "question": "How do you secure Docker containers?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how container image layers work and their benefits.",
+      "hint": "Layers are stacked to create images, enabling efficient storage and sharing.",
+      "id": 26,
+      "question": "What is the concept of container image layering?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss tools and strategies for monitoring containerized applications.",
+      "hint": "Tools include Prometheus, Grafana, ELK stack, and monitoring features in Kubernetes.",
+      "id": 27,
+      "question": "How do you monitor containers in production?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the role of CRIs in Kubernetes and examples of different runtimes.",
+      "hint": "CRI allows Kubernetes to interact with container runtimes like Docker, containerd, and CRI-O.",
+      "id": 28,
+      "question": "What are container runtime interfaces (CRIs)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain Helm and its role in managing Kubernetes applications.",
+      "hint": "Helm is a package manager for Kubernetes, using charts to define, install, and upgrade applications.",
+      "id": 29,
+      "question": "What is Helm in the context of Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss best practices and tools for logging in Docker and Kubernetes.",
+      "hint": "Use centralized logging solutions like ELK stack, Fluentd, and Prometheus for log aggregation and analysis.",
+      "id": 30,
+      "question": "How do you perform logging in containerized environments?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of Ingress in Kubernetes and how it works.",
+      "hint": "Ingress manages external access to services within a Kubernetes cluster, typically HTTP/HTTPS.",
+      "id": 31,
+      "question": "What is a Kubernetes Ingress?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain DaemonSets and their use cases in Kubernetes.",
+      "hint": "DaemonSets ensure that a copy of a Pod runs on all or selected nodes.",
+      "id": 32,
+      "question": "What are Kubernetes DaemonSets?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the methods and tools used to perform health checks for containers.",
+      "hint": "Use Docker's HEALTHCHECK instruction or Kubernetes liveness and readiness probes.",
+      "id": 33,
+      "question": "How do you perform health checks for containers?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain container immutability and its benefits for application deployment.",
+      "hint": "Immutable containers do not change after they are built, ensuring consistency and reliability.",
+      "id": 34,
+      "question": "What is the concept of container immutability?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose and use of Init Containers in Kubernetes.",
+      "hint": "Init Containers run before app containers in a Pod to perform initialization tasks.",
+      "id": 35,
+      "question": "What are Init Containers in Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss methods for managing and securing secrets in containerized environments.",
+      "hint": "Use Kubernetes Secrets, Docker secrets, and tools like HashiCorp Vault.",
+      "id": 36,
+      "question": "How do you handle secret management in containers?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of container registries and their role in container deployment.",
+      "hint": "Registries store and distribute Docker images; examples include Docker Hub, ECR, and GCR.",
+      "id": 37,
+      "question": "What is a container registry and how is it used?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe Kubernetes Operators and their use cases.",
+      "hint": "Operators extend Kubernetes functionality to manage complex applications using custom resources.",
+      "id": 38,
+      "question": "What are Kubernetes Operators?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the blue-green deployment strategy and its benefits.",
+      "hint": "Blue-green deployments switch traffic between two environments to minimize downtime during updates.",
+      "id": 39,
+      "question": "How do you implement blue-green deployments with containers?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of container orchestration and common tools used for it.",
+      "hint": "Orchestration automates deployment, scaling, and management of containers; tools include Kubernetes, Docker Swarm, and Mesos.",
+      "id": 40,
+      "question": "What is container orchestration?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the different networking modes available in Docker and Kubernetes.",
+      "hint": "Networking modes include bridge, host, and overlay; Kubernetes uses CNI plugins for networking.",
+      "id": 41,
+      "question": "How do you handle container networking?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the sidecar container pattern and its use cases.",
+      "hint": "Sidecar containers run alongside main containers in a Pod to provide auxiliary functions.",
+      "id": 42,
+      "question": "What is a sidecar container pattern?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe best practices for securing Docker containers.",
+      "hint": "Use minimal base images, run containers as non-root, and regularly update images.",
+      "id": 43,
+      "question": "How do you secure Docker containers?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how container image layers work and their benefits.",
+      "hint": "Layers are stacked to create images, enabling efficient storage and sharing.",
+      "id": 44,
+      "question": "What is the concept of container image layering?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss tools and strategies for monitoring containerized applications.",
+      "hint": "Tools include Prometheus, Grafana, ELK stack, and monitoring features in Kubernetes.",
+      "id": 45,
+      "question": "How do you monitor containers in production?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the role of CRIs in Kubernetes and examples of different runtimes.",
+      "hint": "CRI allows Kubernetes to interact with container runtimes like Docker, containerd, and CRI-O.",
+      "id": 46,
+      "question": "What are container runtime interfaces (CRIs)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain Helm and its role in managing Kubernetes applications.",
+      "hint": "Helm is a package manager for Kubernetes, using charts to define, install, and upgrade applications.",
+      "id": 47,
+      "question": "What is Helm in the context of Kubernetes?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss best practices and tools for logging in Docker and Kubernetes.",
+      "hint": "Use centralized logging solutions like ELK stack, Fluentd, and Prometheus for log aggregation and analysis.",
+      "id": 48,
+      "question": "How do you perform logging in containerized environments?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of Ingress in Kubernetes and how it works.",
+      "hint": "Ingress manages external access to services within a Kubernetes cluster, typically HTTP/HTTPS.",
+      "id": 49,
+      "question": "What is a Kubernetes Ingress?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain DaemonSets and their use cases in Kubernetes.",
+      "hint": "DaemonSets ensure that a copy of a Pod runs on all or selected nodes.",
+      "id": 50,
+      "question": "What are Kubernetes DaemonSets?"
+    }
+  ],
+  "title": "Containerization and Orchestration"
+}

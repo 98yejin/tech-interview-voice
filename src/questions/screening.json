@@ -1,0 +1,245 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "This question allows you to give a brief overview of your professional journey, key achievements, and relevant experiences.",
+      "id": 1,
+      "question": "Introduce yourself and tell me about your background."
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Highlight your motivation for applying, specific aspects of the job that attract you, and your knowledge about the company.",
+      "id": 2,
+      "question": "Why are you interested in this position and our company?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Provide a structured summary of your resume, emphasizing experiences and skills relevant to the position.",
+      "id": 3,
+      "question": "Can you walk me through your resume?"
+    },
+    {
+      "appropriate_time": "4 minutes",
+      "description": "Discuss a few strengths with examples of how they have benefited your previous roles, and mention one or two weaknesses with steps you are taking to improve them.",
+      "id": 4,
+      "question": "What are your strengths and weaknesses?"
+    },
+    {
+      "appropriate_time": "4 minutes",
+      "description": "Share a specific example, explaining the context, your actions, and the positive outcome or what you learned from the experience.",
+      "id": 5,
+      "question": "Describe a challenging situation at work and how you handled it."
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Outline your short-term and long-term goals and how the role aligns with your career trajectory.",
+      "id": 6,
+      "question": "What are your career goals and how does this position fit into them?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Provide examples of past experiences where you successfully managed high-pressure situations.",
+      "id": 7,
+      "question": "How do you handle working under pressure?"
+    },
+    {
+      "appropriate_time": "4 minutes",
+      "description": "Share a specific instance, detailing your role, the collaboration process, and the results achieved.",
+      "id": 8,
+      "question": "Can you describe a time when you worked in a team?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Be honest but diplomatic, focusing on positive reasons for seeking new opportunities rather than negative aspects of your current job.",
+      "id": 9,
+      "question": "Why are you leaving your current job?"
+    },
+    {
+      "appropriate_time": "4 minutes",
+      "description": "Prepare a few thoughtful questions about the role, team, company culture, or next steps in the interview process.",
+      "id": 10,
+      "question": "Do you have any questions for us?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Demonstrate your research by providing a brief overview of the company's key offerings.",
+      "id": 11,
+      "question": "What do you know about our products/services?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Discuss your approach to managing time and prioritizing work, including tools or methods you use.",
+      "id": 12,
+      "question": "How do you prioritize your tasks?"
+    },
+    {
+      "appropriate_time": "4 minutes",
+      "description": "Provide an example, explaining the situation, the learning process, and the outcome.",
+      "id": 13,
+      "question": "Tell me about a time when you had to learn a new skill quickly."
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Share a specific instance where you took extra steps to achieve a positive result.",
+      "id": 14,
+      "question": "Describe a situation where you went above and beyond your job responsibilities."
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Discuss your attitude towards receiving feedback and how you use it for personal and professional growth.",
+      "id": 15,
+      "question": "How do you handle feedback and criticism?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Provide a range based on your research and market standards, while expressing flexibility.",
+      "id": 16,
+      "question": "What are your salary expectations?"
+    },
+    {
+      "appropriate_time": "4 minutes",
+      "description": "Describe the project, your role, the challenges faced, and the successful outcome.",
+      "id": 17,
+      "question": "Tell me about a project you are particularly proud of."
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Mention specific resources, networks, or practices you follow to keep yourself informed.",
+      "id": 18,
+      "question": "How do you stay updated with industry trends?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Share the factors that drive your performance and keep you engaged in your job.",
+      "id": 19,
+      "question": "What motivates you at work?"
+    },
+    {
+      "appropriate_time": "4 minutes",
+      "description": "Provide a specific example, focusing on communication and resolution strategies.",
+      "id": 20,
+      "question": "Describe a time when you disagreed with a team member and how you resolved it."
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Discuss your approach to managing multiple tasks and meeting deadlines efficiently.",
+      "id": 21,
+      "question": "How do you handle multiple deadlines?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Explain the situation, the changes you implemented, and the impact on the process.",
+      "id": 22,
+      "question": "Can you provide an example of a time when you improved a process at work?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Detail your proficiency and experience with the particular software or tool.",
+      "id": 23,
+      "question": "What is your experience with [specific software or tool relevant to the job]?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Share an example of a challenging interaction and how you managed it professionally.",
+      "id": 24,
+      "question": "How do you handle working with difficult clients or customers?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Provide a specific instance, detailing your strategy to complete the task on time.",
+      "id": 25,
+      "question": "Tell me about a time when you had to meet a tight deadline."
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Discuss your methods for maintaining high standards and avoiding errors.",
+      "id": 26,
+      "question": "How do you ensure quality in your work?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Describe an accomplishment you are most proud of and its significance.",
+      "id": 27,
+      "question": "What do you consider your greatest professional achievement?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Explain your approach to adaptability and problem-solving in the face of change.",
+      "id": 28,
+      "question": "How do you handle unexpected changes or setbacks in your projects?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Describe the kind of work setting where you perform your best, including team dynamics and management styles.",
+      "id": 29,
+      "question": "What type of work environment do you thrive in?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Share your strategies for maintaining a healthy work-life balance.",
+      "id": 30,
+      "question": "How do you balance work and personal life?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Provide an example, focusing on your communication and persuasion techniques.",
+      "id": 31,
+      "question": "Tell me about a time when you had to persuade someone to see things your way."
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Highlight the key attribute you believe is essential for the position and why.",
+      "id": 32,
+      "question": "What do you think is the most important quality for success in this role?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Discuss your organizational habits and tools you use to stay on track.",
+      "id": 33,
+      "question": "How do you keep yourself organized?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Share a specific instance where you managed constraints effectively.",
+      "id": 34,
+      "question": "Can you give an example of how you handle tight budgets or limited resources?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Describe your expectations for management style, support, and feedback.",
+      "id": 35,
+      "question": "What do you expect from a manager?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Provide an example of a conflict you resolved, emphasizing your conflict resolution skills.",
+      "id": 36,
+      "question": "How do you handle conflicts within a team?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Summarize your qualifications, experiences, and skills that align with the job requirements.",
+      "id": 37,
+      "question": "What makes you a good fit for this role?"
+    },
+    {
+      "appropriate_time": "3 minutes",
+      "description": "Discuss your experience in balancing the needs and expectations of different stakeholders.",
+      "id": 38,
+      "question": "Tell me about a time when you had to manage multiple stakeholders."
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Share your strategies for maintaining motivation and focus during monotonous work.",
+      "id": 39,
+      "question": "How do you stay motivated during repetitive tasks?"
+    },
+    {
+      "appropriate_time": "2 minutes",
+      "description": "Briefly mention your interests and hobbies, showing a well-rounded personality.",
+      "id": 40,
+      "question": "What are you passionate about outside of work?"
+    }
+  ],
+  "title": "Screening Interview Questions"
+}

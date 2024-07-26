@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the core concept of React and its primary use.",
+      "hint": "React is a JavaScript library for building user interfaces, primarily for single-page applications.",
+      "id": 1,
+      "question": "What is React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe key features that distinguish React from other JavaScript libraries and frameworks.",
+      "hint": "Features include JSX, virtual DOM, component-based architecture, and unidirectional data flow.",
+      "id": 2,
+      "question": "What are the main features of React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of JSX in React and its benefits.",
+      "hint": "JSX is a syntax extension that allows writing HTML-like code within JavaScript, making it easier to create React elements.",
+      "id": 3,
+      "question": "What is JSX?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the virtual DOM concept and how React uses it to improve performance.",
+      "hint": "The virtual DOM is a lightweight copy of the real DOM. React updates the virtual DOM and then syncs it with the real DOM, minimizing direct DOM manipulations.",
+      "id": 4,
+      "question": "What is the virtual DOM and how does it work?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the role of components in React and how they are used.",
+      "hint": "Components are the building blocks of a React application, encapsulating logic and UI, and can be functional or class-based.",
+      "id": 5,
+      "question": "What are components in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare functional and class components, including their syntax and capabilities.",
+      "hint": "Functional components are stateless and simpler, while class components can hold state and use lifecycle methods.",
+      "id": 6,
+      "question": "What is the difference between functional and class components?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of props and how they are used to pass data between components.",
+      "hint": "Props are read-only attributes passed from parent to child components to pass data and trigger state changes.",
+      "id": 7,
+      "question": "What are props in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the state concept and how it differs from props.",
+      "hint": "State is a local data storage for components that can be updated, causing the component to re-render.",
+      "id": 8,
+      "question": "What is state in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how the useState hook is used in functional components.",
+      "hint": "useState is a hook that allows adding state to functional components, returning a state variable and a function to update it.",
+      "id": 9,
+      "question": "What is the useState hook?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the lifecycle methods available in class components.",
+      "hint": "Lifecycle methods include componentDidMount, componentDidUpdate, and componentWillUnmount, allowing code to run at different stages of a component's lifecycle.",
+      "id": 10,
+      "question": "What are lifecycle methods in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss how event handling works in React and provide an example.",
+      "hint": "Events are handled using camelCase syntax and passing event handler functions as props, e.g., onClick={handleClick}.",
+      "id": 11,
+      "question": "How do you handle events in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how to conditionally render components in React.",
+      "hint": "Conditional rendering can be done using JavaScript conditional operators like if-else, ternary operators, or logical &&.",
+      "id": 12,
+      "question": "What is conditional rendering in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the context API and its use cases.",
+      "hint": "The context API provides a way to pass data through the component tree without passing props down manually at every level.",
+      "id": 13,
+      "question": "What is the context API?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose and usage of the useEffect hook in functional components.",
+      "hint": "useEffect runs side effects after rendering, like fetching data, subscribing to events, or directly manipulating the DOM.",
+      "id": 14,
+      "question": "What is the useEffect hook?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss various techniques to improve the performance of a React application.",
+      "hint": "Techniques include code splitting, lazy loading, memoization, and using shouldComponentUpdate or React.memo.",
+      "id": 15,
+      "question": "How do you optimize performance in a React application?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of React Router and how it is used for navigation.",
+      "hint": "React Router is a library for managing navigation and rendering components based on the current URL.",
+      "id": 16,
+      "question": "What is React Router?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the concept of higher-order components and their use cases.",
+      "hint": "HOCs are functions that take a component and return a new component, often used for reusing component logic.",
+      "id": 17,
+      "question": "What are higher-order components (HOCs)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the core concepts of Redux and how it integrates with React.",
+      "hint": "Redux is a state management library that provides a predictable state container and integrates with React using the React-Redux library.",
+      "id": 18,
+      "question": "What is Redux?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the steps to connect a React component to a Redux store.",
+      "hint": "Use the connect function from React-Redux, mapping state and dispatch to props, and wrap the component with the provider.",
+      "id": 19,
+      "question": "How do you connect a React component to a Redux store?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of hooks in React and list some commonly used hooks.",
+      "hint": "Hooks allow using state and other React features in functional components. Common hooks include useState, useEffect, and useContext.",
+      "id": 20,
+      "question": "What are React hooks?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the useReducer hook and its use cases.",
+      "hint": "useReducer is an alternative to useState for managing complex state logic, taking a reducer function and an initial state.",
+      "id": 21,
+      "question": "What is the useReducer hook?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss best practices for handling forms and form validation in React.",
+      "hint": "Use controlled components to manage form state, handle form submission with event handlers, and validate inputs with custom logic or libraries.",
+      "id": 22,
+      "question": "How do you handle forms in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare controlled and uncontrolled components in React.",
+      "hint": "Controlled components have their state managed by React, while uncontrolled components use the DOM to manage state.",
+      "id": 23,
+      "question": "What are controlled and uncontrolled components?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how React's reconciliation process works and its significance.",
+      "hint": "Reconciliation is the process of updating the DOM to match the virtual DOM, using a diffing algorithm to minimize changes.",
+      "id": 24,
+      "question": "What is React's reconciliation process?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss ways to handle side effects in functional and class components.",
+      "hint": "Use the useEffect hook in functional components and lifecycle methods like componentDidMount in class components.",
+      "id": 25,
+      "question": "How do you handle side effects in React components?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare React and React Native in terms of purpose and usage.",
+      "hint": "React is for building web applications, while React Native is for building mobile applications using React principles.",
+      "id": 26,
+      "question": "What is the difference between React and React Native?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of fragments and how they are used.",
+      "hint": "Fragments let you group multiple elements without adding extra nodes to the DOM, using <></> or React.Fragment.",
+      "id": 27,
+      "question": "What are fragments in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss techniques for rendering components conditionally in React.",
+      "hint": "Use JavaScript conditional statements like if-else, ternary operators, or logical && for conditional rendering.",
+      "id": 28,
+      "question": "How do you handle conditional rendering in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the useRef hook and its use cases.",
+      "hint": "useRef creates a mutable object that persists across renders, often used for accessing DOM elements or storing mutable values.",
+      "id": 29,
+      "question": "What is the useRef hook?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how the context API works and provide an example of its usage.",
+      "hint": "The context API provides a way to pass data through the component tree without passing props down manually at every level.",
+      "id": 30,
+      "question": "What is React's context API and how is it used?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the render props pattern and its benefits.",
+      "hint": "Render props are a technique for sharing code between components using a prop whose value is a function.",
+      "id": 31,
+      "question": "What are render props?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss various approaches to managing global state in React.",
+      "hint": "Use context API, state management libraries like Redux or MobX, or built-in hooks like useReducer and useContext.",
+      "id": 32,
+      "question": "How do you manage global state in a React application?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the concept of code splitting and its benefits for React applications.",
+      "hint": "Code splitting divides code into smaller bundles that can be loaded on demand, improving performance. Use React.lazy and Suspense for dynamic imports.",
+      "id": 33,
+      "question": "What is code splitting and how is it achieved in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare the useEffect and useLayoutEffect hooks in React.",
+      "hint": "useEffect runs asynchronously after rendering, while useLayoutEffect runs synchronously after all DOM mutations.",
+      "id": 34,
+      "question": "What is the difference between useEffect and useLayoutEffect?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of portals and how they are used in React.",
+      "hint": "Portals allow rendering children into a DOM node outside the parent component's hierarchy.",
+      "id": 35,
+      "question": "What are React portals?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the purpose of error boundaries and how to implement them.",
+      "hint": "Error boundaries catch JavaScript errors in their child component tree and display a fallback UI. Implement using componentDidCatch and getDerivedStateFromError.",
+      "id": 36,
+      "question": "How do you handle error boundaries in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the useMemo hook and its use cases.",
+      "hint": "useMemo memoizes the result of a computation to avoid unnecessary recalculations on re-renders.",
+      "id": 37,
+      "question": "What is the useMemo hook?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss tools and techniques for testing React components.",
+      "hint": "Use tools like Jest for unit tests and React Testing Library or Enzyme for component rendering and interaction tests.",
+      "id": 38,
+      "question": "How do you test React components?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare and contrast props and state in React.",
+      "hint": "Props are immutable data passed from parent to child components, while state is mutable data managed within the component.",
+      "id": 39,
+      "question": "What is the difference between props and state?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of pure components and their advantages.",
+      "hint": "Pure components render only when their props or state change, implementing shouldComponentUpdate for performance optimization.",
+      "id": 40,
+      "question": "What are pure components?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss methods to control and optimize component updates.",
+      "hint": "Use shouldComponentUpdate, React.memo, and the useCallback hook to control re-renders and optimize performance.",
+      "id": 41,
+      "question": "How do you handle component updates in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of React.StrictMode and how to use it.",
+      "hint": "React.StrictMode is a tool for highlighting potential problems in an application, such as deprecated APIs and side effects.",
+      "id": 42,
+      "question": "What is React.StrictMode?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of custom hooks and how to create them.",
+      "hint": "Custom hooks are reusable functions that encapsulate logic using React hooks, prefixed with 'use'.",
+      "id": 43,
+      "question": "What are custom hooks in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the useContext hook and provide an example.",
+      "hint": "useContext simplifies accessing context values without using a Consumer component.",
+      "id": 44,
+      "question": "How do you use React's useContext hook?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose and benefits of React's fiber architecture.",
+      "hint": "Fiber is a reimplementation of React's core algorithm for incremental rendering, improving responsiveness and user experience.",
+      "id": 45,
+      "question": "What is React's fiber architecture?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss techniques for managing asynchronous data fetching and side effects in React.",
+      "hint": "Use the useEffect hook with async functions, or libraries like Axios, Fetch API, or React Query.",
+      "id": 46,
+      "question": "How do you handle asynchronous operations in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the Suspense component and its use cases.",
+      "hint": "Suspense allows components to wait for some operation to complete, like data fetching or code splitting, before rendering.",
+      "id": 47,
+      "question": "What is React Suspense?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss various approaches to styling React components.",
+      "hint": "Use CSS-in-JS libraries like styled-components, traditional CSS, CSS Modules, or inline styles.",
+      "id": 48,
+      "question": "How do you manage CSS in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare synchronous and asynchronous rendering and their implications.",
+      "hint": "Synchronous rendering blocks the UI until the render is complete, while asynchronous rendering allows for incremental rendering and improved user experience.",
+      "id": 49,
+      "question": "What is the difference between synchronous and asynchronous rendering in React?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the useImperativeHandle hook and its use cases.",
+      "hint": "useImperativeHandle customizes the instance value exposed by a ref, often used in combination with forwardRef.",
+      "id": 50,
+      "question": "What is React's useImperativeHandle hook?"
+    }
+  ],
+  "title": "React Interview Questions"
+}

@@ -1,0 +1,357 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Explain the OSI model.",
+      "description": "Describe the seven layers of the OSI model and their functions.",
+      "appropriate_time": "5 minutes",
+      "hint": "Layers include Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+    },
+    {
+      "id": 2,
+      "question": "What is the difference between TCP and UDP?",
+      "description": "Discuss the differences in reliability, connection, and use cases between TCP and UDP.",
+      "appropriate_time": "5 minutes",
+      "hint": "TCP is connection-oriented and reliable; UDP is connectionless and faster."
+    },
+    {
+      "id": 3,
+      "question": "How does a router work?",
+      "description": "Explain the basic function of a router in a network.",
+      "appropriate_time": "5 minutes",
+      "hint": "Routers forward data packets between computer networks, determining the best path for data transmission."
+    },
+    {
+      "id": 4,
+      "question": "What is NAT and why is it used?",
+      "description": "Explain Network Address Translation and its purposes.",
+      "appropriate_time": "5 minutes",
+      "hint": "NAT translates private IP addresses to a public IP address, enabling multiple devices to share a single public IP."
+    },
+    {
+      "id": 5,
+      "question": "Explain the difference between a hub, switch, and router.",
+      "description": "Discuss the functions and differences of these networking devices.",
+      "appropriate_time": "5 minutes",
+      "hint": "Hubs broadcast data to all devices, switches forward data to specific devices, and routers direct data between networks."
+    },
+    {
+      "id": 6,
+      "question": "What is a VPN and how does it work?",
+      "description": "Describe the purpose of a Virtual Private Network and its basic functioning.",
+      "appropriate_time": "5 minutes",
+      "hint": "VPNs create a secure, encrypted connection over a less secure network, such as the internet."
+    },
+    {
+      "id": 7,
+      "question": "How does DHCP work?",
+      "description": "Explain the Dynamic Host Configuration Protocol and its role in networks.",
+      "appropriate_time": "5 minutes",
+      "hint": "DHCP automatically assigns IP addresses and other network configurations to devices on a network."
+    },
+    {
+      "id": 8,
+      "question": "What is DNS and how does it function?",
+      "description": "Discuss the Domain Name System and its role in the internet.",
+      "appropriate_time": "5 minutes",
+      "hint": "DNS translates human-readable domain names into IP addresses."
+    },
+    {
+      "id": 9,
+      "question": "What is a subnet and why is it used?",
+      "description": "Explain subnetting and its advantages in network design.",
+      "appropriate_time": "5 minutes",
+      "hint": "Subnetting divides a large network into smaller, more efficient sub-networks."
+    },
+    {
+      "id": 10,
+      "question": "Explain the difference between IPv4 and IPv6.",
+      "description": "Discuss the differences, advantages, and challenges of IPv4 and IPv6.",
+      "appropriate_time": "5 minutes",
+      "hint": "IPv4 uses 32-bit addresses; IPv6 uses 128-bit addresses, providing a vastly larger address space."
+    },
+    {
+      "id": 11,
+      "question": "How do firewalls work?",
+      "description": "Describe the basic function and types of firewalls in network security.",
+      "appropriate_time": "5 minutes",
+      "hint": "Firewalls filter incoming and outgoing network traffic based on security rules."
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of a proxy server?",
+      "description": "Explain what a proxy server is and its uses in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "Proxy servers act as intermediaries between clients and servers, providing anonymity, security, and caching."
+    },
+    {
+      "id": 13,
+      "question": "What are VLANs and how are they used?",
+      "description": "Discuss Virtual Local Area Networks and their benefits.",
+      "appropriate_time": "5 minutes",
+      "hint": "VLANs segment a physical network into multiple logical networks to improve security and reduce broadcast domains."
+    },
+    {
+      "id": 14,
+      "question": "Explain the concept of load balancing.",
+      "description": "Describe how load balancing works and its importance in network performance.",
+      "appropriate_time": "5 minutes",
+      "hint": "Load balancing distributes network traffic across multiple servers to ensure reliability and performance."
+    },
+    {
+      "id": 15,
+      "question": "What is a MAC address and why is it important?",
+      "description": "Explain the purpose of a Media Access Control address in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "A MAC address is a unique identifier assigned to network interfaces for communication within a network segment."
+    },
+    {
+      "id": 16,
+      "question": "How does ARP work?",
+      "description": "Describe the Address Resolution Protocol and its function in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "ARP maps IP addresses to MAC addresses, enabling communication within a local network."
+    },
+    {
+      "id": 17,
+      "question": "What is BGP and why is it important?",
+      "description": "Explain the Border Gateway Protocol and its role in the internet.",
+      "appropriate_time": "5 minutes",
+      "hint": "BGP is used to exchange routing information between different autonomous systems on the internet."
+    },
+    {
+      "id": 18,
+      "question": "How do wireless networks work?",
+      "description": "Discuss the basic principles of wireless networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "Wireless networks use radio waves to connect devices without physical cables."
+    },
+    {
+      "id": 19,
+      "question": "What is QoS and why is it important?",
+      "description": "Explain Quality of Service and its significance in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "QoS prioritizes certain types of traffic to ensure reliable performance for critical applications."
+    },
+    {
+      "id": 20,
+      "question": "What are the differences between STP and RSTP?",
+      "description": "Discuss the Spanning Tree Protocol and Rapid Spanning Tree Protocol.",
+      "appropriate_time": "5 minutes",
+      "hint": "RSTP is an evolution of STP, providing faster convergence and improved network reliability."
+    },
+    {
+      "id": 21,
+      "question": "What is the role of SNMP in network management?",
+      "description": "Explain the Simple Network Management Protocol and its use cases.",
+      "appropriate_time": "5 minutes",
+      "hint": "SNMP is used for monitoring and managing network devices."
+    },
+    {
+      "id": 22,
+      "question": "How does the TCP three-way handshake work?",
+      "description": "Describe the process of establishing a TCP connection.",
+      "appropriate_time": "5 minutes",
+      "hint": "The three-way handshake involves SYN, SYN-ACK, and ACK messages."
+    },
+    {
+      "id": 23,
+      "question": "What is a CDN and how does it work?",
+      "description": "Explain the concept of a Content Delivery Network and its benefits.",
+      "appropriate_time": "5 minutes",
+      "hint": "CDNs distribute content across multiple servers to reduce latency and improve load times."
+    },
+    {
+      "id": 24,
+      "question": "What is ICMP and what is it used for?",
+      "description": "Discuss the Internet Control Message Protocol and its role in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "ICMP is used for error messages and operational information, such as ping and traceroute."
+    },
+    {
+      "id": 25,
+      "question": "How do IPsec and SSL/TLS differ?",
+      "description": "Compare IPsec and SSL/TLS in terms of functionality and use cases.",
+      "appropriate_time": "5 minutes",
+      "hint": "IPsec operates at the network layer for secure IP communications, while SSL/TLS operates at the transport layer for securing web communications."
+    },
+    {
+      "id": 26,
+      "question": "What is a broadcast storm and how can it be prevented?",
+      "description": "Explain the phenomenon of a broadcast storm and mitigation techniques.",
+      "appropriate_time": "5 minutes",
+      "hint": "Broadcast storms occur when there is excessive broadcast traffic; they can be prevented using proper network design and protocols like STP."
+    },
+    {
+      "id": 27,
+      "question": "What are the differences between HTTP and HTTPS?",
+      "description": "Discuss the key differences and benefits of using HTTPS over HTTP.",
+      "appropriate_time": "5 minutes",
+      "hint": "HTTPS is HTTP with encryption (SSL/TLS), providing secure communication."
+    },
+    {
+      "id": 28,
+      "question": "What is port forwarding and why is it used?",
+      "description": "Explain the concept of port forwarding and its applications.",
+      "appropriate_time": "5 minutes",
+      "hint": "Port forwarding directs incoming network traffic to a specific device
+
+ or service within a private network."
+    },
+    {
+      "id": 29,
+      "question": "How do you secure a wireless network?",
+      "description": "Discuss various methods to secure a wireless network.",
+      "appropriate_time": "5 minutes",
+      "hint": "Use strong encryption (WPA2/WPA3), strong passwords, and disable SSID broadcasting."
+    },
+    {
+      "id": 30,
+      "question": "What is a DMZ in network security?",
+      "description": "Explain the concept of a Demilitarized Zone (DMZ) and its purpose.",
+      "appropriate_time": "5 minutes",
+      "hint": "A DMZ is a buffer zone between an internal network and the external internet, used to host public-facing services while protecting the internal network."
+    },
+    {
+      "id": 31,
+      "question": "How does MPLS work?",
+      "description": "Describe the basics of Multiprotocol Label Switching and its benefits.",
+      "appropriate_time": "5 minutes",
+      "hint": "MPLS directs data from one network node to the next based on short path labels rather than long network addresses."
+    },
+    {
+      "id": 32,
+      "question": "What is the purpose of a network topology?",
+      "description": "Explain different types of network topologies and their use cases.",
+      "appropriate_time": "5 minutes",
+      "hint": "Common topologies include star, mesh, bus, and ring, each with its own advantages and disadvantages."
+    },
+    {
+      "id": 33,
+      "question": "How does a VPN work?",
+      "description": "Describe the functioning and benefits of a Virtual Private Network.",
+      "appropriate_time": "5 minutes",
+      "hint": "VPNs create a secure, encrypted connection over a less secure network, such as the internet."
+    },
+    {
+      "id": 34,
+      "question": "What are the differences between symmetric and asymmetric encryption?",
+      "description": "Discuss the differences, advantages, and use cases of symmetric and asymmetric encryption.",
+      "appropriate_time": "5 minutes",
+      "hint": "Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses a public/private key pair."
+    },
+    {
+      "id": 35,
+      "question": "Explain the concept of a packet in networking.",
+      "description": "Describe what a packet is and its role in data transmission.",
+      "appropriate_time": "5 minutes",
+      "hint": "A packet is a small segment of data sent over a network, containing both payload and header information."
+    },
+    {
+      "id": 36,
+      "question": "What is the purpose of a network interface card (NIC)?",
+      "description": "Explain the function and importance of a NIC in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "A NIC provides the hardware interface between a computer and a network."
+    },
+    {
+      "id": 37,
+      "question": "How does the DHCP process work?",
+      "description": "Describe the steps involved in the DHCP process.",
+      "appropriate_time": "5 minutes",
+      "hint": "DHCP includes discovery, offer, request, and acknowledgment steps."
+    },
+    {
+      "id": 38,
+      "question": "What is a multicast and how is it used?",
+      "description": "Explain the concept of multicast and its applications in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "Multicast sends data to multiple specific recipients simultaneously, commonly used in streaming media."
+    },
+    {
+      "id": 39,
+      "question": "How does network segmentation improve security?",
+      "description": "Discuss the benefits of network segmentation for security purposes.",
+      "appropriate_time": "5 minutes",
+      "hint": "Segmentation isolates parts of a network to contain security breaches and limit access."
+    },
+    {
+      "id": 40,
+      "question": "What are the differences between unicast, broadcast, and multicast?",
+      "description": "Compare unicast, broadcast, and multicast communication methods.",
+      "appropriate_time": "5 minutes",
+      "hint": "Unicast is one-to-one, broadcast is one-to-all, and multicast is one-to-many."
+    },
+    {
+      "id": 41,
+      "question": "What is the role of a network gateway?",
+      "description": "Explain the function of a gateway in a network.",
+      "appropriate_time": "5 minutes",
+      "hint": "A gateway connects different networks, allowing communication between them."
+    },
+    {
+      "id": 42,
+      "question": "How do you troubleshoot network connectivity issues?",
+      "description": "Discuss common steps and tools used to troubleshoot network issues.",
+      "appropriate_time": "5 minutes",
+      "hint": "Use tools like ping, traceroute, and network analyzers to diagnose connectivity problems."
+    },
+    {
+      "id": 43,
+      "question": "What is a network protocol analyzer and how is it used?",
+      "description": "Explain what a protocol analyzer is and its applications.",
+      "appropriate_time": "5 minutes",
+      "hint": "A protocol analyzer captures and analyzes network traffic to diagnose issues and monitor performance."
+    },
+    {
+      "id": 44,
+      "question": "What is the difference between a public IP address and a private IP address?",
+      "description": "Discuss the differences and use cases for public and private IP addresses.",
+      "appropriate_time": "5 minutes",
+      "hint": "Public IP addresses are globally unique and accessible over the internet, while private IP addresses are used within local networks."
+    },
+    {
+      "id": 45,
+      "question": "What is the purpose of a routing table?",
+      "description": "Explain what a routing table is and how it is used in networking.",
+      "appropriate_time": "5 minutes",
+      "hint": "A routing table stores routes to different network destinations and determines the best path for data packets."
+    },
+    {
+      "id": 46,
+      "question": "How does DNS resolution work?",
+      "description": "Describe the process of resolving a domain name to an IP address.",
+      "appropriate_time": "5 minutes",
+      "hint": "DNS resolution involves querying DNS servers to translate a domain name into its corresponding IP address."
+    },
+    {
+      "id": 47,
+      "question": "What is a network topology?",
+      "description": "Explain the concept of network topology and its importance.",
+      "appropriate_time": "5 minutes",
+      "hint": "Network topology refers to the arrangement of different elements (links, nodes) in a computer network."
+    },
+    {
+      "id": 48,
+      "question": "What is a port in networking?",
+      "description": "Describe what a port is and its role in network communication.",
+      "appropriate_time": "5 minutes",
+      "hint": "A port is a logical access point for communication between devices and services in a network."
+    },
+    {
+      "id": 49,
+      "question": "How does SSL/TLS work?",
+      "description": "Explain the basics of SSL/TLS and its role in securing network communication.",
+      "appropriate_time": "5 minutes",
+      "hint": "SSL/TLS encrypts data transmitted between a client and server to ensure privacy and data integrity."
+    },
+    {
+      "id": 50,
+      "question": "What is the difference between circuit switching and packet switching?",
+      "description": "Discuss the differences, advantages, and use cases of circuit switching and packet switching.",
+      "appropriate_time": "5 minutes",
+      "hint": "Circuit switching establishes a dedicated path for communication, while packet switching divides data into packets that are routed independently."
+    }
+  ],
+  "Title": "Networking Interview Questions"
+}

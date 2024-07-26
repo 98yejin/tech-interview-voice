@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the different normal forms and the steps to normalize a database.",
+      "hint": "Start with 1NF and proceed to 2NF, 3NF, and BCNF.",
+      "id": 1,
+      "question": "Explain the process of normalization."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for books, authors, members, loans, and fines.",
+      "hint": "Identify entities and their relationships. Consider using foreign keys to link related tables.",
+      "id": 2,
+      "question": "Design a database schema for a library management system."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for products, categories, users, orders, and reviews.",
+      "hint": "Ensure to handle many-to-many relationships, especially for products and categories.",
+      "id": 3,
+      "question": "How would you design a database for an e-commerce website?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of denormalization and provide scenarios where it is beneficial.",
+      "hint": "Discuss performance optimization and trade-offs in read-heavy databases.",
+      "id": 4,
+      "question": "What is denormalization and when would you use it?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, posts, comments, likes, and friendships.",
+      "hint": "Consider the need for indexing to optimize queries for user feeds and interactions.",
+      "id": 5,
+      "question": "Design a database for a social media platform."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for efficient querying and storage.",
+      "hint": "Discuss partitioning, indexing, and possibly using specialized time-series databases.",
+      "id": 6,
+      "question": "How would you design a database to store time-series data?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the use cases, strengths, and weaknesses of each type.",
+      "hint": "Mention consistency, scalability, and flexibility.",
+      "id": 7,
+      "question": "Explain the difference between SQL and NoSQL databases."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for patients, doctors, appointments, treatments, and prescriptions.",
+      "hint": "Consider the relationships between patients and doctors, and how to handle medical records.",
+      "id": 8,
+      "question": "Design a database schema for a hospital management system."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept and provide an example schema.",
+      "hint": "Use a junction table to manage the many-to-many relationship.",
+      "id": 9,
+      "question": "How would you handle many-to-many relationships in a database?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the benefits and potential drawbacks of indexing.",
+      "hint": "Mention query performance improvement and potential impact on write operations.",
+      "id": 10,
+      "question": "What are the pros and cons of using indexes in a database?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, listings, bookings, payments, and reviews.",
+      "hint": "Ensure to handle date and time data efficiently for bookings.",
+      "id": 11,
+      "question": "Design a database schema for an online booking system."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how foreign keys are used to enforce referential integrity.",
+      "hint": "Provide an example of a foreign key relationship between two tables.",
+      "id": 12,
+      "question": "Explain the concept of a foreign key."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, articles, categories, and comments.",
+      "hint": "Consider relationships between articles and categories, and how to handle hierarchical data.",
+      "id": 13,
+      "question": "How would you design a database for a content management system (CMS)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept and provide an example.",
+      "hint": "Discuss the use of multiple columns to create a unique key for a table.",
+      "id": 14,
+      "question": "What is a composite key and when would you use it?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for students, courses, enrollments, grades, and instructors.",
+      "hint": "Handle the many-to-many relationship between students and courses through an enrollment table.",
+      "id": 15,
+      "question": "Design a database schema for a student management system."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for guests, rooms, reservations, payments, and services.",
+      "hint": "Consider the relationship between guests and reservations, and how to manage room availability.",
+      "id": 16,
+      "question": "How would you design a database for a hotel reservation system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe each of the four ACID properties and their importance.",
+      "hint": "Atomicity, Consistency, Isolation, Durability.",
+      "id": 17,
+      "question": "Explain the concept of ACID properties in databases."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for surveys, questions, answers, and respondents.",
+      "hint": "Handle the dynamic nature of surveys where questions and answers can vary widely.",
+      "id": 18,
+      "question": "Design a database schema for a survey application."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss techniques and strategies for optimizing read performance.",
+      "hint": "Consider indexing, denormalization, and caching.",
+      "id": 19,
+      "question": "How would you optimize a database for read-heavy workloads?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what sharding is and how it helps with scalability.",
+      "hint": "Discuss partitioning data across multiple servers.",
+      "id": 20,
+      "question": "Explain the concept of sharding in a database."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, songs, playlists, artists, and albums.",
+      "hint": "Consider the relationships between songs, playlists, and users.",
+      "id": 21,
+      "question": "Design a database schema for a music streaming service."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept and provide an example.",
+      "hint": "A surrogate key is an artificial key that has no business meaning.",
+      "id": 22,
+      "question": "What is a surrogate key and when would you use it?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for employers, job seekers, job postings, applications, and interviews.",
+      "hint": "Handle the relationships between job postings and applications.",
+      "id": 23,
+      "question": "How would you design a database for a job portal?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the use cases and characteristics of OLTP and OLAP systems.",
+      "hint": "OLTP is for transactional processing, OLAP is for analytical processing.",
+      "id": 24,
+      "question": "Explain the difference between OLTP and OLAP databases."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for products, categories, suppliers, orders, and stock levels.",
+      "hint": "Ensure to handle many-to-many relationships, especially for products and suppliers.",
+      "id": 25,
+      "question": "Design a database schema for an inventory management system."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how each type of index works and their use cases.",
+      "hint": "Clustered index determines the physical order of data, non-clustered index does not.",
+      "id": 26,
+      "question": "What is the difference between a clustered and a non-clustered index?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, posts, comments, tags, and categories.",
+      "hint": "Handle the many-to-many relationship between posts and tags.",
+      "id": 27,
+      "question": "How would you design a database for a blog platform?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what a view is and how it is used.",
+      "hint": "A view is a virtual table based on the result of a SELECT query.",
+      "id": 28,
+      "question": "Explain the concept of a view in a database."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for events, users, bookings, payments, and venues.",
+      "hint": "Consider the relationships between events and venues, and how to manage seat availability.",
+      "id": 29,
+      "question": "Design a database schema for a ticket booking system."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept and use cases for materialized views.",
+      "hint": "Materialized views store the result set of a query, while regular views do not.",
+      "id": 30,
+      "question": "What is a materialized view and how does it differ from a regular view?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss strategies for managing and versioning database schema changes.",
+      "hint": "Consider tools like Liquibase, Flyway, or manual versioning strategies.",
+      "id": 31,
+      "question": "How would you handle versioning of database schemas?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, workouts, exercises, and progress tracking.",
+      "hint": "Consider the relationships between workouts and exercises, and how to track user progress.",
+      "id": 32,
+      "question": "Design a database schema for a fitness tracking app."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the benefits and potential drawbacks of stored procedures.",
+      "hint": "Consider performance, security, and maintainability.",
+      "id": 33,
+      "question": "What are the advantages and disadvantages of using stored procedures?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, messages, conversations, and attachments.",
+      "hint": "Handle the relationships between users and conversations, and how to manage message storage.",
+      "id": 34,
+      "question": "How would you design a database for a real-time chat application?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how indexes work and their effect on read and write operations.",
+      "hint": "Discuss how indexes improve query performance but can slow down write operations.",
+      "id": 35,
+      "question": "Explain the concept of indexing and its impact on database performance."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for drivers, riders, rides, payments, and locations.",
+      "hint": "Consider the relationships between drivers and rides, and how to manage real-time location data.",
+      "id": 36,
+      "question": "Design a database schema for a ridesharing service."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain what a transaction log is and how it is used in database management.",
+      "hint": "A transaction log records all changes made to the database for recovery purposes.",
+      "id": 37,
+      "question": "What is the role of a database transaction log?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, threads, posts, comments, and categories.",
+      "hint": "Handle the hierarchical nature of threads and posts, and how to categorize discussions.",
+      "id": 38,
+      "question": "How would you design a database for a forum or discussion board?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how inner and outer joins work and provide examples of each.",
+      "hint": "Inner join returns only matching rows, outer join returns matching and non-matching rows.",
+      "id": 39,
+      "question": "Explain the difference between inner join and outer join."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for employees, departments, salaries, job titles, and performance reviews.",
+      "hint": "Consider the relationships between employees and departments, and how to track employee performance.",
+      "id": 40,
+      "question": "Design a database schema for a human resources management system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the factors that influence the decision to use SQL or NoSQL databases.",
+      "hint": "Consider scalability, data model, consistency, and query complexity.",
+      "id": 41,
+      "question": "What are the considerations for choosing between SQL and NoSQL databases?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for shipments, warehouses, inventory, orders, and suppliers.",
+      "hint": "Handle the relationships between shipments and warehouses, and how to track inventory levels.",
+      "id": 42,
+      "question": "How would you design a database for a logistics and supply chain management system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what database partitioning is and its benefits.",
+      "hint": "Partitioning divides a database into smaller, more manageable pieces.",
+      "id": 43,
+      "question": "Explain the concept of database partitioning."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for events, attendees, organizers, tickets, and venues.",
+      "hint": "Consider the relationships between events and attendees, and how to manage ticket sales.",
+      "id": 44,
+      "question": "Design a database schema for an event management system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss strategies for modeling and querying hierarchical data.",
+      "hint": "Consider using adjacency list, nested set, or materialized path methods.",
+      "id": 45,
+      "question": "How would you handle hierarchical data in a relational database?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what eventual consistency is and how it differs from strong consistency.",
+      "hint": "Eventual consistency allows for temporary inconsistencies that will resolve over time.",
+      "id": 46,
+      "question": "Explain the concept of eventual consistency in distributed databases."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, workouts, exercises, and progress tracking.",
+      "hint": "Consider the relationships between workouts and exercises, and how to track user progress.",
+      "id": 47,
+      "question": "Design a database schema for a fitness tracking app."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the benefits and potential drawbacks of stored procedures.",
+      "hint": "Consider performance, security, and maintainability.",
+      "id": 48,
+      "question": "What are the advantages and disadvantages of using stored procedures?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include tables for users, messages, conversations, and attachments.",
+      "hint": "Handle the relationships between users and conversations, and how to manage message storage.",
+      "id": 49,
+      "question": "How would you design a database for a real-time chat application?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how indexes work and their effect on read and write operations.",
+      "hint": "Discuss how indexes improve query performance but can slow down write operations.",
+      "id": 50,
+      "question": "Explain the concept of indexing and its impact on database performance."
+    }
+  ],
+  "title": "Database Design"
+}

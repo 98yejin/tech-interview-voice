@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the shortest path in a weighted graph that may have negative weights.",
+      "hint": "Consider using the Bellman-Ford algorithm.",
+      "id": 1,
+      "question": "Find the shortest path in a weighted graph with negative weights."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a suffix array for a given string.",
+      "hint": "Use a combination of sorting and LCP (Longest Common Prefix) array.",
+      "id": 2,
+      "question": "Implement a suffix array."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to compute the maximum flow in a flow network.",
+      "hint": "Use the Ford-Fulkerson method or Edmonds-Karp algorithm.",
+      "id": 3,
+      "question": "Find the maximum flow in a flow network."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a balanced tree that supports insert, delete, and getRandom in average O(log n) time.",
+      "hint": "Consider using a treap or AVL tree with additional structures.",
+      "id": 4,
+      "question": "Implement a balanced tree that supports insert, delete, and getRandom operations."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the shortest possible route that visits each city exactly once and returns to the origin city.",
+      "hint": "Use dynamic programming with bitmasking or branch and bound approach.",
+      "id": 5,
+      "question": "Design an algorithm to solve the Traveling Salesman Problem (TSP)."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the k closest points to the origin given an array of points in a 2D plane.",
+      "hint": "Use a max-heap to maintain the closest k points.",
+      "id": 6,
+      "question": "Find the k closest points to the origin in a 2D plane."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the longest path in a directed acyclic graph.",
+      "hint": "Use topological sorting and dynamic programming.",
+      "id": 7,
+      "question": "Find the longest path in a directed acyclic graph (DAG)."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the number of ways to paint a fence with n posts and k colors such that no more than two adjacent posts have the same color.",
+      "hint": "Use dynamic programming.",
+      "id": 8,
+      "question": "Find the number of ways to paint a fence with n posts using k colors with no more than two adjacent posts having the same color."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the length of the longest substring that contains at most k distinct characters.",
+      "hint": "Use a sliding window approach with a hash map.",
+      "id": 9,
+      "question": "Find the longest substring with at most k distinct characters."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the minimum number of refueling stops needed to reach a destination given an initial amount of fuel and a list of fuel stations.",
+      "hint": "Use dynamic programming or a max-heap.",
+      "id": 10,
+      "question": "Find the minimum number of refueling stops needed to reach a destination."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a data structure that supports insert, delete, search, and getRandom in average O(1) time.",
+      "hint": "Use a combination of a hash map and an array.",
+      "id": 11,
+      "question": "Implement a data structure that supports insert, delete, search, and getRandom in constant time."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the largest rectangle containing only 1s in a binary matrix.",
+      "hint": "Use dynamic programming and a stack to find the largest rectangle in histograms for each row.",
+      "id": 12,
+      "question": "Find the largest rectangle in a binary matrix."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the maximum profit you can achieve with at most k transactions.",
+      "hint": "Use dynamic programming with two states: holding and not holding a stock.",
+      "id": 13,
+      "question": "Find the maximum profit in a stock trading with at most k transactions."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to place n queens on an n x n chessboard such that no two queens threaten each other.",
+      "hint": "Use backtracking.",
+      "id": 14,
+      "question": "Implement an algorithm to solve the n-queens problem."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the largest sum of non-adjacent numbers in an array.",
+      "hint": "Use dynamic programming.",
+      "id": 15,
+      "question": "Find the largest sum of non-adjacent numbers in an array."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the smallest range that includes at least one number from each of the k lists.",
+      "hint": "Use a min-heap to maintain the smallest range.",
+      "id": 16,
+      "question": "Find the smallest range that includes at least one number from each of k lists."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find all critical connections in a network represented as a graph.",
+      "hint": "Use Tarjan's algorithm for finding bridges in a graph.",
+      "id": 17,
+      "question": "Find the critical connections in a network."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a text editor that supports basic operations along with undo and redo functionality.",
+      "hint": "Use stacks to maintain the history of operations for undo and redo.",
+      "id": 18,
+      "question": "Implement a text editor with undo and redo functionality."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the shortest path in a grid with obstacles that can be eliminated a limited number of times.",
+      "hint": "Use breadth-first search with state tracking for the number of obstacles eliminated.",
+      "id": 19,
+      "question": "Find the shortest path in a grid with obstacles elimination."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the longest consecutive path in a binary tree.",
+      "hint": "Use depth-first search and keep track of the length of the consecutive path.",
+      "id": 20,
+      "question": "Find the longest consecutive path in a binary tree."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to sort a list of tuples based on multiple keys.",
+      "hint": "Use a custom comparator or a stable sort algorithm with multiple passes.",
+      "id": 21,
+      "question": "Implement a multi-key sort."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the maximum sum of any 3x3 submatrix in a 2D matrix.",
+      "hint": "Use a sliding window approach to calculate the sum of each submatrix.",
+      "id": 22,
+      "question": "Find the maximum sum of a 3x3 submatrix in a 2D matrix."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find if a word exists in a 2D grid of characters.",
+      "hint": "Use depth-first search with backtracking.",
+      "id": 23,
+      "question": "Implement an algorithm to solve the word search problem in a 2D grid."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to count the number of distinct islands in a 2D grid of 0s and 1s.",
+      "hint": "Use depth-first search or breadth-first search to identify islands and their shapes.",
+      "id": 24,
+      "question": "Find the number of distinct islands in a 2D grid."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the maximum sum of a path in a matrix from the top-left corner to the bottom-right corner.",
+      "hint": "Use dynamic programming.",
+      "id": 25,
+      "question": "Find the maximum sum of a path in a matrix."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a data structure that supports insert, delete, and getMedian in average O(log n) time.",
+      "hint": "Use two heaps to maintain the lower and upper halves of the data.",
+      "id": 26,
+      "question": "Implement a data structure that supports insert, delete, and getMedian operations."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the minimum cost to connect all points in a 2D plane such that every pair of points is connected.",
+      "hint": "Use Kruskal's or Prim's algorithm for finding the minimum spanning tree.",
+      "id": 27,
+      "question": "Find the minimum cost to connect all points in a 2D plane."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the minimum number of coins needed to make a given amount.",
+      "hint": "Use dynamic programming.",
+      "id": 28,
+      "question": "Find the minimum number of coins needed to make a given amount."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the longest increasing path in a matrix.",
+      "hint": "Use depth-first search with memoization.",
+      "id": 29,
+      "question": "Implement an algorithm to find the longest increasing path in a matrix."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the maximum product of any three numbers in an array.",
+      "hint": "Consider the maximum and minimum values in the array.",
+      "id": 30,
+      "question": "Find the maximum product of three numbers in an array."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a data structure that supports range sum queries and updates in logarithmic time.",
+      "hint": "Use a segment tree or binary indexed tree (Fenwick Tree).",
+      "id": 31,
+      "question": "Implement a data structure that supports range sum queries and updates."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the shortest path with exactly k edges in a graph.",
+      "hint": "Use dynamic programming or depth-first search with state tracking.",
+      "id": 32,
+      "question": "Find the shortest path with exactly k edges in a graph."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a data structure for Least Frequently Used (LFU) cache.",
+      "hint": "Use a combination of a hash map and a doubly linked list.",
+      "id": 33,
+      "question": "Implement an LFU cache."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the longest arithmetic sequence in an array.",
+      "hint": "Use dynamic programming with a hash map to store the differences.",
+      "id": 34,
+      "question": "Find the longest arithmetic sequence in an array."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the maximum sum of a path from the top to the bottom of a triangle.",
+      "hint": "Use dynamic programming starting from the bottom of the triangle.",
+      "id": 35,
+      "question": "Find the maximum sum of a path in a triangle."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the number of unique binary search trees that can be formed with n nodes.",
+      "hint": "Use dynamic programming with Catalan numbers.",
+      "id": 36,
+      "question": "Find the number of unique binary search trees with n nodes."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the longest palindromic substring in a given string.",
+      "hint": "Use dynamic programming or expand around center approach.",
+      "id": 37,
+      "question": "Find the longest palindromic substring in a string."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a data structure that supports range minimum queries in logarithmic time.",
+      "hint": "Use a segment tree or sparse table.",
+      "id": 38,
+      "question": "Implement a data structure that supports range minimum queries."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the shortest path in a graph where all paths have the same length.",
+      "hint": "Use breadth-first search.",
+      "id": 39,
+      "question": "Find the shortest path in a graph with all paths having the same length."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the maximum sum of a subarray with at most k elements removed.",
+      "hint": "Use dynamic programming.",
+      "id": 40,
+      "question": "Find the maximum sum of a subarray with at most k elements removed."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to solve a Sudoku puzzle.",
+      "hint": "Use backtracking with constraint propagation.",
+      "id": 41,
+      "question": "Implement an algorithm to solve the Sudoku puzzle."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the length of the longest substring that contains exactly k distinct characters.",
+      "hint": "Use a sliding window approach with a hash map.",
+      "id": 42,
+      "question": "Find the longest substring with exactly k distinct characters."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the number of subarrays with a given sum in an array.",
+      "hint": "Use a hash map to store cumulative sums.",
+      "id": 43,
+      "question": "Find the number of subarrays with a given sum."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Design and implement a data structure that supports range sum queries and range updates in logarithmic time.",
+      "hint": "Use a segment tree with lazy propagation.",
+      "id": 44,
+      "question": "Implement a data structure that supports range sum queries and range updates."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the smallest difference between any two elements in an array.",
+      "hint": "Sort the array and then find the minimum difference between consecutive elements.",
+      "id": 45,
+      "question": "Find the smallest difference between any two elements in an array."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the longest path in a matrix with strictly increasing values.",
+      "hint": "Use depth-first search with memoization.",
+      "id": 46,
+      "question": "Find the longest path in a matrix with increasing values."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the minimum number of swaps required to sort an array.",
+      "hint": "Use graph cycles to determine the number of swaps.",
+      "id": 47,
+      "question": "Find the minimum number of swaps to sort an array."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the minimum spanning tree in a graph.",
+      "hint": "Use Kruskal's or Prim's algorithm.",
+      "id": 48,
+      "question": "Implement an algorithm to find the minimum spanning tree in a graph."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the maximum sum of a rectangle in a 2D matrix.",
+      "hint": "Use Kadane's algorithm for each pair of rows.",
+      "id": 49,
+      "question": "Find the maximum sum of a rectangle in a 2D matrix."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Write a function to find the articulation points in a graph.",
+      "hint": "Use Tarjan's algorithm for finding articulation points.",
+      "id": 50,
+      "question": "Implement an algorithm to find the articulation points in a graph."
+    }
+  ],
+  "title": "Hard Algorithm Questions"
+}

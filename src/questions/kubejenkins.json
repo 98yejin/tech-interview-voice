@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the advantages of deploying Jenkins on a Kubernetes cluster.",
+      "hint": "Benefits include scalability, resource efficiency, better isolation, and leveraging Kubernetes features like auto-scaling and self-healing.",
+      "id": 1,
+      "question": "What are the benefits of running Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the steps to deploy a Jenkins instance on Kubernetes.",
+      "hint": "Use Helm charts, define Kubernetes manifests (Deployment, Service, PVC), and configure necessary resources.",
+      "id": 2,
+      "question": "How do you deploy Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the role of Jenkins agents in Kubernetes and how to set them up.",
+      "hint": "Jenkins agents run build tasks. Configure using Kubernetes plugin, defining pod templates with necessary resources and labels.",
+      "id": 3,
+      "question": "What is a Jenkins agent in Kubernetes, and how do you configure it?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the process of using Helm to deploy Jenkins on a Kubernetes cluster.",
+      "hint": "Add the Jenkins Helm repository, configure values.yaml for custom settings, and use 'helm install' to deploy.",
+      "id": 4,
+      "question": "How do you use Helm to install Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss strategies for handling persistent storage for Jenkins data in Kubernetes.",
+      "hint": "Use PersistentVolume (PV) and PersistentVolumeClaim (PVC) to manage Jenkins home directory, ensure backups and use storage classes.",
+      "id": 5,
+      "question": "What are the best practices for managing Jenkins persistent storage in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe how to dynamically scale Jenkins agents based on workload in Kubernetes.",
+      "hint": "Use Kubernetes plugin to configure pod templates that define how to scale agents, leverage Kubernetes auto-scaling features.",
+      "id": 6,
+      "question": "How do you scale Jenkins agents dynamically in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the purpose and functionality of the Kubernetes plugin in Jenkins.",
+      "hint": "The Kubernetes plugin allows Jenkins to dynamically provision pods as Jenkins agents in a Kubernetes cluster.",
+      "id": 7,
+      "question": "What is the Kubernetes plugin in Jenkins, and how does it work?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the security measures to implement for Jenkins on Kubernetes.",
+      "hint": "Use RBAC, secure Jenkins with HTTPS, manage secrets securely using Kubernetes Secrets, and ensure network policies.",
+      "id": 8,
+      "question": "How do you secure Jenkins running on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain what Jenkins X is and how it utilizes Kubernetes features.",
+      "hint": "Jenkins X is an opinionated CI/CD solution for cloud applications on Kubernetes, providing automated GitOps, preview environments, and Kubernetes-native builds.",
+      "id": 9,
+      "question": "What is a Jenkins X, and how does it leverage Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe methods for managing Jenkins configuration as code in a Kubernetes environment.",
+      "hint": "Use Jenkins Configuration as Code (JCasC) plugin, store configuration in a ConfigMap, and apply configurations on startup.",
+      "id": 10,
+      "question": "How do you handle Jenkins configuration as code in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain strategies for handling and persisting Jenkins logs when running in Kubernetes.",
+      "hint": "Use Kubernetes logging solutions like EFK stack (Elasticsearch, Fluentd, Kibana) or cloud-native logging services.",
+      "id": 11,
+      "question": "How do you manage Jenkins logs in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss approaches to achieve high availability for Jenkins deployed on Kubernetes.",
+      "hint": "Set up multiple Jenkins instances with shared storage, use load balancers, and configure automatic failover mechanisms.",
+      "id": 12,
+      "question": "How do you implement high availability for Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the concept of shared libraries in Jenkins and their usage in Kubernetes deployments.",
+      "hint": "Shared libraries allow reusable code across pipelines. Store libraries in a Git repository and reference them in Jenkinsfile.",
+      "id": 13,
+      "question": "What are Jenkins shared libraries, and how can they be used in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the network configuration required for Jenkins master and agents to communicate in Kubernetes.",
+      "hint": "Ensure proper network policies, use services for stable network access, and configure Jenkins agents with appropriate connectivity settings.",
+      "id": 14,
+      "question": "How do you configure Jenkins master and agents to communicate in a Kubernetes environment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the integration of Jenkins with Kubernetes-native CI/CD tools like Tekton or ArgoCD.",
+      "hint": "Use Jenkins pipelines to trigger Tekton tasks or ArgoCD deployments, leverage Kubernetes CRDs for CI/CD integration.",
+      "id": 15,
+      "question": "How do you integrate Jenkins with Kubernetes-native CI/CD tools?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Identify common challenges when deploying Jenkins on Kubernetes and strategies to address them.",
+      "hint": "Challenges include managing persistent storage, scaling agents, network configuration, and security. Mitigate with proper planning, automation, and monitoring.",
+      "id": 16,
+      "question": "What are the challenges of running Jenkins on Kubernetes, and how can they be mitigated?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe methods for automating the deployment process of Jenkins on a Kubernetes cluster.",
+      "hint": "Use Helm charts, CI/CD pipelines, and infrastructure-as-code tools like Terraform or Ansible for automated deployment.",
+      "id": 17,
+      "question": "How do you automate the deployment of Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the management of pipeline logs and artifacts when running Jenkins on Kubernetes.",
+      "hint": "Store logs in persistent storage or external logging services, use object storage like S3 for artifacts, and configure proper cleanup policies.",
+      "id": 18,
+      "question": "How do you handle Jenkins pipeline logs and artifacts in a Kubernetes environment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the tools and methods used to monitor Jenkins performance and health in Kubernetes.",
+      "hint": "Use Prometheus for metrics, Grafana for visualization, and Kubernetes-native monitoring tools like kube-state-metrics and metrics-server.",
+      "id": 19,
+      "question": "How do you monitor Jenkins performance in a Kubernetes cluster?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the purpose of PVCs in the context of Jenkins deployment on Kubernetes.",
+      "hint": "PVCs request persistent storage resources in Kubernetes, ensuring data persistence across Jenkins pod restarts and rescheduling.",
+      "id": 20,
+      "question": "What is the role of PersistentVolumeClaims (PVCs) in Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss best practices for managing secrets in a Jenkins deployment on Kubernetes.",
+      "hint": "Use Kubernetes Secrets to store sensitive data, integrate with external secret management tools like HashiCorp Vault, and ensure proper RBAC.",
+      "id": 21,
+      "question": "How do you manage secrets for Jenkins running on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the process and considerations for upgrading Jenkins running on Kubernetes.",
+      "hint": "Use rolling updates with Helm, ensure backups of configurations and data, test upgrades in staging environments, and monitor post-upgrade performance.",
+      "id": 22,
+      "question": "How do you handle Jenkins upgrades in a Kubernetes environment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the role of Jenkins Operator in Kubernetes and its benefits.",
+      "hint": "The Jenkins Operator automates the deployment and management of Jenkins instances on Kubernetes, simplifying operations like scaling, upgrades, and configuration management.",
+      "id": 23,
+      "question": "What is the Jenkins Operator, and how does it help in managing Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the setup of CI/CD pipelines using Jenkins in a Kubernetes environment.",
+      "hint": "Define Jenkins pipelines with Kubernetes integration, use pod templates for builds, and deploy applications to Kubernetes clusters as part of the pipeline.",
+      "id": 24,
+      "question": "How do you implement CI/CD pipelines with Jenkins and Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the best practices for managing and updating Jenkins plugins in a Kubernetes environment.",
+      "hint": "Automate plugin management with JCasC, monitor plugin updates and compatibility, and ensure regular backups before making changes.",
+      "id": 25,
+      "question": "How do you manage Jenkins plugins in a Kubernetes deployment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the implementation of network policies to secure Jenkins in Kubernetes.",
+      "hint": "Use Kubernetes NetworkPolicies to define and enforce rules for pod communication, restricting access based on labels and namespaces.",
+      "id": 26,
+      "question": "How do you implement network policies for Jenkins in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how ConfigMaps are used in Jenkins deployments on Kubernetes.",
+      "hint": "ConfigMaps store configuration data as key-value pairs, allowing Jenkins pods to consume environment-specific configurations at runtime.",
+      "id": 27,
+      "question": "What is the role of ConfigMaps in Jenkins Kubernetes deployments?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the process of implementing blue-green deployments using Jenkins in a Kubernetes environment.",
+      "hint": "Define separate blue and green environments in Kubernetes, use Jenkins pipelines to deploy to the inactive environment, and switch traffic upon successful validation.",
+      "id": 28,
+      "question": "How do you handle blue-green deployments with Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the process of performing rolling updates for Jenkins agents in a Kubernetes cluster.",
+      "hint": "Use Kubernetes Deployment strategies, configure maxUnavailable and maxSurge settings, and monitor the update process to ensure minimal disruption.",
+      "id": 29,
+      "question": "How do you implement rolling updates for Jenkins agents on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss how to allocate resources for Jenkins master and agents in a Kubernetes environment.",
+      "hint": "Define resource requests and limits for CPU and memory, use namespaces and resource quotas to manage usage, and monitor resource consumption.",
+      "id": 30,
+      "question": "What are the considerations for resource allocation for Jenkins in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain strategies for backing up Jenkins data when running on Kubernetes.",
+      "hint": "Use PV snapshots, configure automated backup scripts, and store backups in external storage like S3 or persistent volumes.",
+      "id": 31,
+      "question": "How do you manage Jenkins backups in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the steps to set up disaster recovery for Jenkins deployed on Kubernetes.",
+      "hint": "Implement regular backups, use multi-zone/multi-region deployments, configure automated failover mechanisms, and test recovery procedures regularly.",
+      "id": 32,
+      "question": "How do you implement disaster recovery for Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe methods to ensure isolation of Jenkins builds in Kubernetes.",
+      "hint": "Use separate namespaces, configure resource limits, use pod security policies, and isolate builds using different agent pod templates.",
+      "id": 33,
+      "question": "How do you ensure Jenkins builds are isolated in a Kubernetes environment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how to integrate Jenkins pipelines with Tekton for CI/CD workflows.",
+      "hint": "Use Jenkins pipelines to trigger Tekton pipelines, configure Tekton tasks and pipelines, and leverage Kubernetes for orchestration.",
+      "id": 34,
+      "question": "How do you integrate Jenkins with cloud-native CI/CD tools like Tekton?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the purpose of ServiceAccount in Jenkins running on Kubernetes.",
+      "hint": "ServiceAccounts provide identities for pods to interact with the Kubernetes API, enabling fine-grained access control and permissions.",
+      "id": 35,
+      "question": "What is the role of ServiceAccount in Jenkins Kubernetes deployments?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss methods to manage and apply Jenkins configuration changes on Kubernetes.",
+      "hint": "Use JCasC, store configurations in ConfigMaps or volumes, automate application of configurations on pod startup, and ensure version control.",
+      "id": 36,
+      "question": "How do you handle Jenkins configuration changes in a Kubernetes environment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the process of monitoring and managing Jenkins agent pods in a Kubernetes environment.",
+      "hint": "Use Kubernetes monitoring tools, set up alerts for pod health, manage pod templates for scalability, and regularly review pod performance metrics.",
+      "id": 37,
+      "question": "How do you monitor and manage Jenkins agent pods in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the steps to set up ingress for Jenkins running in Kubernetes.",
+      "hint": "Define an Ingress resource, configure ingress controller, set up proper routing and SSL termination, and manage DNS settings.",
+      "id": 38,
+      "question": "How do you configure ingress for Jenkins in a Kubernetes cluster?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss strategies for managing and storing Jenkins pipeline artifacts when running on Kubernetes.",
+      "hint": "Use object storage like S3, configure artifact storage plugins, and ensure proper cleanup and retention policies for artifacts.",
+      "id": 39,
+      "question": "How do you handle Jenkins pipeline artifacts in a Kubernetes environment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain methods to achieve compliance and auditing for Jenkins deployments on Kubernetes.",
+      "hint": "Enable audit logging, use RBAC for access control, integrate with compliance tools, and regularly review logs and configurations for compliance.",
+      "id": 40,
+      "question": "How do you ensure compliance and auditing for Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss methods to implement caching mechanisms for Jenkins pipelines in Kubernetes.",
+      "hint": "Use persistent volumes for cache storage, leverage caching plugins, and configure cache restoration and saving steps in pipelines.",
+      "id": 41,
+      "question": "How do you implement pipeline caching in Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how PodDisruptionBudget can be used in Jenkins deployments on Kubernetes.",
+      "hint": "PodDisruptionBudget ensures a minimum number of pods remain available during voluntary disruptions, maintaining Jenkins service availability.",
+      "id": 42,
+      "question": "What is the role of PodDisruptionBudget in Jenkins Kubernetes deployments?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe methods to achieve parallel job execution in Jenkins running on Kubernetes.",
+      "hint": "Use the 'parallel' directive in Jenkins pipelines, configure multiple agents with Kubernetes plugin, and leverage Kubernetes resource allocation.",
+      "id": 43,
+      "question": "How do you implement Jenkins job parallelism in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the management of Jenkins agent pod lifecycle in a Kubernetes environment.",
+      "hint": "Define pod templates, configure startup and shutdown behavior, use labels and annotations for management, and monitor pod lifecycle events.",
+      "id": 44,
+      "question": "How do you handle Jenkins agent pod lifecycle in Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss strategies for managing multi-tenancy in Jenkins deployments on Kubernetes.",
+      "hint": "Use separate namespaces, configure RBAC for access control, and implement resource quotas to manage usage for different tenants.",
+      "id": 45,
+      "question": "How do you manage multi-tenancy in Jenkins on Kubernetes?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how to address network latency issues in Jenkins running on Kubernetes.",
+      "hint": "Optimize network configurations, use local agents to reduce latency, configure proper network policies, and monitor network performance.",
+      "id": 46,
+      "question": "What are the considerations for network latency in Jenkins Kubernetes deployments?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss best practices for managing Jenkins plugin dependencies when running on Kubernetes.",
+      "hint": "Regularly update plugins, use version control for configurations, test dependencies in staging environments, and ensure compatibility checks.",
+      "id": 47,
+      "question": "How do you handle Jenkins plugin dependencies in a Kubernetes environment?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the process of integrating Jenkins with Kubernetes RBAC for access control.",
+      "hint": "Use ServiceAccounts for Jenkins pods, configure RBAC roles and bindings, and ensure least privilege access for Jenkins components.",
+      "id": 48,
+      "question": "How do you integrate Jenkins with Kubernetes RBAC?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe methods to manage job queuing for Jenkins running on Kubernetes.",
+      "hint": "Use Jenkins queue management features, configure agent pod templates for resource allocation, and monitor job queues for optimization.",
+      "id": 49,
+      "question": "How do you implement Jenkins job queuing in a Kubernetes cluster?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the important metrics to track for Jenkins performance and health in a Kubernetes environment.",
+      "hint": "Monitor CPU and memory usage, pod health, build times, job success rates, and Kubernetes cluster metrics using tools like Prometheus and Grafana.",
+      "id": 50,
+      "question": "What are the key metrics to monitor for Jenkins running on Kubernetes?"
+    }
+  ],
+  "title": "Jenkins on Kubernetes"
+}

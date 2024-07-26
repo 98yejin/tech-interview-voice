@@ -1,0 +1,305 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a service like bit.ly that generates a short, unique URL that redirects to the original URL.",
+      "id": 1,
+      "question": "Design a URL shortening service."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe how you would create a system that can send notifications to millions of users in real-time.",
+      "id": 2,
+      "question": "Design a scalable notification system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the architecture for a service that allows users to upload, store, and share files.",
+      "id": 3,
+      "question": "Design a file storage service like Dropbox."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture and key components required to build a scalable and reliable chat application.",
+      "id": 4,
+      "question": "Design a real-time chat application."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a system like YouTube or Netflix, focusing on video storage, streaming, and scalability.",
+      "id": 5,
+      "question": "Design an online video streaming service."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture of a system that recommends products or content to users based on their behavior and preferences.",
+      "id": 6,
+      "question": "Design a recommendation system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a system that caches data across multiple servers to improve performance and scalability.",
+      "id": 7,
+      "question": "Design a distributed caching system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the components and architecture required to build a search engine that indexes and retrieves web pages efficiently.",
+      "id": 8,
+      "question": "Design a search engine."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain the architecture for a social media site like Facebook, focusing on user profiles, posts, feeds, and scalability.",
+      "id": 9,
+      "question": "Design a social media platform."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture of a system like Uber or Lyft, including real-time location tracking, matching algorithms, and scalability.",
+      "id": 10,
+      "question": "Design a ride-sharing service."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a system for an online store, focusing on product catalog, shopping cart, order processing, and scalability.",
+      "id": 11,
+      "question": "Design an e-commerce website."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a payment processing system, including security, transaction handling, and scalability.",
+      "id": 12,
+      "question": "Design a payment gateway."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a system to collect, store, and analyze logs from multiple services in real-time.",
+      "id": 13,
+      "question": "Design a scalable logging system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a CDN that distributes content to users efficiently and reliably.",
+      "id": 14,
+      "question": "Design a content delivery network (CDN)."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design the backend for a real-time multiplayer game, focusing on scalability and low latency.",
+      "id": 15,
+      "question": "Design a multiplayer online game."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a system that manages message queues for asynchronous communication between services.",
+      "id": 16,
+      "question": "Design a messaging queue system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system to enable or disable features in a live application without deploying new code.",
+      "id": 17,
+      "question": "Design a feature flag system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss how you would design a system to manage configuration data for distributed applications.",
+      "id": 18,
+      "question": "Design a configuration management system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a platform to process and analyze large volumes of data in real-time.",
+      "id": 19,
+      "question": "Design a data analytics platform."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for an API gateway that handles requests and routes them to appropriate backend services.",
+      "id": 20,
+      "question": "Design a scalable API gateway."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a distributed storage system that scales with demand and ensures data durability.",
+      "id": 21,
+      "question": "Design a cloud storage system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture and key considerations for designing a database that spans multiple servers and ensures high availability.",
+      "id": 22,
+      "question": "Design a distributed database."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system to schedule and execute tasks in a distributed environment.",
+      "id": 23,
+      "question": "Design a task scheduling system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a load balancer that distributes incoming traffic across multiple servers to ensure availability and performance.",
+      "id": 24,
+      "question": "Design a load balancer."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a system to deploy, serve, and monitor machine learning models in production.",
+      "id": 25,
+      "question": "Design a machine learning model serving system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe how you would build a system to define, execute, and monitor workflows in a distributed environment.",
+      "id": 26,
+      "question": "Design a workflow management system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture and key components required to build a system like Git for managing source code versions.",
+      "id": 27,
+      "question": "Design a version control system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a system to monitor applications and infrastructure, and send alerts based on predefined thresholds.",
+      "id": 28,
+      "question": "Design a monitoring and alerting system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a data pipeline that ingests, processes, and stores data from multiple sources.",
+      "id": 29,
+      "question": "Design a data pipeline."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a tool like Google Docs, focusing on real-time collaboration and data consistency.",
+      "id": 30,
+      "question": "Design an online collaboration tool."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture of a system that detects fraudulent activities in real-time.",
+      "id": 31,
+      "question": "Design a fraud detection system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system to manage and schedule appointments for a healthcare facility.",
+      "id": 32,
+      "question": "Design a healthcare appointment scheduling system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a platform that manages and communicates with a large number of IoT devices.",
+      "id": 33,
+      "question": "Design an IoT device management platform."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a text editor, focusing on features like syntax highlighting, auto-completion, and performance.",
+      "id": 34,
+      "question": "Design a text editor."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture and key features required for a database optimized for storing and querying time-series data.",
+      "id": 35,
+      "question": "Design a time-series database."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system for trading stocks, including real-time data feeds, order processing, and security.",
+      "id": 36,
+      "question": "Design a financial trading platform."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a system that allows users to search for and book travel accommodations and flights.",
+      "id": 37,
+      "question": "Design a travel booking system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system for users to create, view, and respond to discussion threads.",
+      "id": 38,
+      "question": "Design a forum or discussion board."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture for a system that can send emails to millions of users, ensuring delivery and handling bounces.",
+      "id": 39,
+      "question": "Design an email delivery system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system to schedule and run batch jobs in a distributed environment.",
+      "id": 40,
+      "question": "Design a job scheduling system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe how you would build a system to enable or disable application features at runtime without redeploying.",
+      "id": 41,
+      "question": "Design a feature toggle system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would design a system to manage user sessions across a distributed architecture.",
+      "id": 42,
+      "question": "Design a scalable session management system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the architecture for a system that tracks the real-time location of vehicles.",
+      "id": 43,
+      "question": "Design a vehicle tracking system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system to manage customer support tickets, track issues, and provide solutions.",
+      "id": 44,
+      "question": "Design a customer support system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for a system that automatically moderates user-generated content to filter out inappropriate material.",
+      "id": 45,
+      "question": "Design a content moderation system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a platform that supports multiple chat bots and scales with increasing user interactions.",
+      "id": 46,
+      "question": "Design a scalable chat bot platform."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss how you would build a system to convert media files into different formats, focusing on scalability and performance.",
+      "id": 47,
+      "question": "Design a media transcoding system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system to track software bugs, manage issue statuses, and report progress.",
+      "id": 48,
+      "question": "Design a bug tracking system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Describe the architecture for an app that helps users manage their finances, track spending, and create budgets.",
+      "id": 49,
+      "question": "Design a personal finance management app."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Explain how you would build a system to process and manipulate images at scale, focusing on performance and efficiency.",
+      "id": 50,
+      "question": "Design a scalable image processing system."
+    }
+  ],
+  "title": "System Design"
+}

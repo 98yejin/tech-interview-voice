@@ -1,0 +1,354 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of Infrastructure as Code and its importance in modern IT operations.",
+      "hint": "IaC is the practice of managing and provisioning computing infrastructure using machine-readable configuration files.",
+      "id": 1,
+      "question": "What is Infrastructure as Code (IaC)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the advantages of adopting IaC for infrastructure management.",
+      "hint": "Benefits include automation, consistency, version control, rapid provisioning, and easier scaling.",
+      "id": 2,
+      "question": "What are the benefits of using IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the various types of IaC and their use cases.",
+      "hint": "Types include declarative (e.g., Terraform) and imperative (e.g., Ansible), each with its own approach to defining infrastructure.",
+      "id": 3,
+      "question": "What are the different types of IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare declarative and imperative approaches to IaC.",
+      "hint": "Declarative IaC specifies the desired state of infrastructure, while imperative IaC defines the steps to achieve the desired state.",
+      "id": 4,
+      "question": "What is the difference between declarative and imperative IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of Terraform and its role in IaC.",
+      "hint": "Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently using a declarative configuration language.",
+      "id": 5,
+      "question": "What is Terraform and how is it used in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the concept of state in Terraform and how it manages infrastructure state.",
+      "hint": "Terraform uses state files to track the current state of infrastructure, enabling it to determine what changes need to be applied.",
+      "id": 6,
+      "question": "How does Terraform handle state management?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose and usage of modules in Terraform.",
+      "hint": "Modules are reusable packages of Terraform configuration files that can be shared and versioned, promoting DRY principles.",
+      "id": 7,
+      "question": "What are Terraform modules and how are they used?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare AWS CloudFormation with Terraform in terms of features and use cases.",
+      "hint": "CloudFormation is an AWS-specific IaC tool, while Terraform is cloud-agnostic, supporting multiple providers.",
+      "id": 8,
+      "question": "What is CloudFormation and how does it compare to Terraform?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss strategies for handling sensitive information securely in IaC.",
+      "hint": "Use secret management tools like HashiCorp Vault, AWS Secrets Manager, or environment variables with encryption.",
+      "id": 9,
+      "question": "How do you manage secrets in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how version control systems are used in IaC workflows.",
+      "hint": "Version control enables tracking changes to IaC files, collaboration, and rollback capabilities.",
+      "id": 10,
+      "question": "What is the role of version control in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss methods and tools for testing IaC configurations.",
+      "hint": "Use tools like Terratest, Kitchen-Terraform, and InSpec for unit testing, integration testing, and compliance testing.",
+      "id": 11,
+      "question": "How do you implement testing for IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of Ansible and its role in infrastructure automation.",
+      "hint": "Ansible is an open-source automation tool for configuration management, application deployment, and task automation.",
+      "id": 12,
+      "question": "What is Ansible and how does it fit into IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare Ansible and Terraform in terms of use cases and functionality.",
+      "hint": "Ansible is primarily for configuration management and task automation, while Terraform focuses on infrastructure provisioning.",
+      "id": 13,
+      "question": "How does Ansible differ from Terraform?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Identify common mistakes and best practices for using IaC.",
+      "hint": "Avoid hardcoding values, ensure idempotency, use modules for reusability, and maintain proper documentation and version control.",
+      "id": 14,
+      "question": "What are some common pitfalls to avoid when using IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the importance of idempotency in IaC tools.",
+      "hint": "Idempotency ensures that applying the same IaC configuration multiple times results in the same state without unintended changes.",
+      "id": 15,
+      "question": "What is the principle of idempotency in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss strategies for managing configurations for different environments (e.g., development, staging, production).",
+      "hint": "Use variables, environment files, and parameterization to manage environment-specific settings.",
+      "id": 16,
+      "question": "How do you handle environment-specific configurations in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of Packer and its integration with IaC workflows.",
+      "hint": "Packer is a tool for creating machine images for multiple platforms from a single configuration, often used alongside IaC tools for consistent environment setup.",
+      "id": 17,
+      "question": "What is Packer and how is it used with IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain why documentation is critical in IaC and what should be documented.",
+      "hint": "Documentation helps in understanding, maintaining, and collaborating on IaC configurations. Document architecture, dependencies, and usage instructions.",
+      "id": 18,
+      "question": "What is the importance of documentation in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the advantages of using IaC tools provided by cloud providers.",
+      "hint": "Cloud-native tools like AWS CloudFormation and Azure Resource Manager are tightly integrated with their respective platforms, offering optimized performance and additional features.",
+      "id": 19,
+      "question": "What are the benefits of using cloud-native IaC tools?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of providers in Terraform and their role.",
+      "hint": "Providers are plugins that allow Terraform to interact with APIs of various services (e.g., AWS, Azure, GCP) to provision resources.",
+      "id": 20,
+      "question": "What is a Terraform provider?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how Terraform manages resource dependencies.",
+      "hint": "Terraform automatically builds a dependency graph and ensures that resources are created in the correct order based on their relationships.",
+      "id": 21,
+      "question": "How do you handle dependencies in Terraform?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the importance of the state file in Terraform and how it is managed.",
+      "hint": "The state file stores the current state of infrastructure, enabling Terraform to plan and apply changes accurately. It should be securely stored and managed.",
+      "id": 22,
+      "question": "What is the role of a state file in Terraform?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss strategies for securing Terraform state files.",
+      "hint": "Use remote state storage with encryption, access controls, and versioning (e.g., S3 with IAM policies).",
+      "id": 23,
+      "question": "How do you secure Terraform state files?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the role of Chef in infrastructure automation.",
+      "hint": "Chef is a configuration management tool that uses Ruby-based DSL to manage infrastructure as code, automating application deployment and infrastructure configuration.",
+      "id": 24,
+      "question": "What is Chef and how is it used in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose and structure of Ansible playbooks.",
+      "hint": "Playbooks are YAML files that define a set of tasks to be executed on managed nodes, specifying what actions to perform and the order of execution.",
+      "id": 25,
+      "question": "What are playbooks in Ansible?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss strategies for rolling back infrastructure changes when needed.",
+      "hint": "Use version control to revert changes, maintain backups of state files, and implement automated rollback procedures.",
+      "id": 26,
+      "question": "How do you handle rollbacks in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how CI/CD pipelines integrate with IaC workflows.",
+      "hint": "CI/CD pipelines automate the testing, provisioning, and deployment of IaC configurations, ensuring consistent and repeatable infrastructure changes.",
+      "id": 27,
+      "question": "What is the role of CI/CD in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose of manifests in Puppet and how they are used.",
+      "hint": "Manifests are files written in Puppet's DSL that define the desired state of resources and how they should be configured.",
+      "id": 28,
+      "question": "What are Puppet manifests?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss methods for detecting and managing drift in infrastructure managed by IaC.",
+      "hint": "Regularly run IaC tools to detect drift, use monitoring tools to alert on configuration changes, and implement corrective automation.",
+      "id": 29,
+      "question": "How do you manage infrastructure drift with IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of the desired state and its importance in IaC.",
+      "hint": "The desired state defines the intended configuration of infrastructure, ensuring consistency and compliance with IaC definitions.",
+      "id": 30,
+      "question": "What is the significance of the 'desired state' in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the concept of roles in Ansible and their benefits.",
+      "hint": "Roles are reusable sets of tasks, variables, and templates that organize and simplify complex playbooks by breaking them into modular components.",
+      "id": 31,
+      "question": "What is the purpose of Ansible roles?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss tools and practices for monitoring and logging infrastructure managed by IaC.",
+      "hint": "Use monitoring tools (e.g., Prometheus, Grafana) and logging solutions (e.g., ELK Stack) to track infrastructure health and performance.",
+      "id": 32,
+      "question": "How do you implement monitoring and logging in IaC-managed infrastructure?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "List and explain best practices for writing maintainable and scalable Terraform code.",
+      "hint": "Use modules, follow naming conventions, manage state files securely, write clear documentation, and use version control.",
+      "id": 33,
+      "question": "What are best practices for writing Terraform code?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how blue-green deployment strategies can be implemented using IaC.",
+      "hint": "Provision separate environments (blue and green) and switch traffic between them using IaC tools to minimize downtime and risk.",
+      "id": 34,
+      "question": "How do you handle blue-green deployments with IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how Git is used to manage IaC configurations.",
+      "hint": "Git provides version control for IaC files, enabling collaboration, tracking changes, and facilitating rollback and auditing.",
+      "id": 35,
+      "question": "What is the role of Git in IaC workflows?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of immutable infrastructure and its benefits.",
+      "hint": "Immutable infrastructure ensures that servers and components are replaced rather than modified, promoting consistency and reliability.",
+      "id": 36,
+      "question": "What is the significance of 'immutable infrastructure' in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss how to define and manage dependencies between resources in AWS CloudFormation templates.",
+      "hint": "Use the 'DependsOn' attribute to specify resource dependencies, ensuring proper creation order.",
+      "id": 37,
+      "question": "How do you manage dependencies between resources in CloudFormation?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the role of workspaces in Terraform and how they are used.",
+      "hint": "Workspaces allow managing multiple instances of the same infrastructure configuration, useful for managing environments like development and production.",
+      "id": 38,
+      "question": "What is the purpose of Terraform workspaces?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the importance of tagging and how it is implemented in IaC tools.",
+      "hint": "Tagging helps in organizing, managing, and billing resources. Implement tagging in IaC configurations to ensure consistent metadata across resources.",
+      "id": 39,
+      "question": "What is the significance of tagging in IaC-managed resources?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss strategies for ensuring compliance with regulatory and organizational standards using IaC.",
+      "hint": "Use policy-as-code tools (e.g., Open Policy Agent), regular audits, automated compliance checks, and documentation to ensure compliance.",
+      "id": 40,
+      "question": "How do you ensure compliance in IaC-managed environments?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how Jenkins can be used to automate IaC processes.",
+      "hint": "Jenkins automates the execution of IaC scripts, integrates with version control, and provides continuous integration and delivery capabilities.",
+      "id": 41,
+      "question": "What is the role of Jenkins in IaC workflows?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the potential challenges and solutions for managing IaC across multiple cloud providers.",
+      "hint": "Challenges include varying APIs, resource management, and maintaining consistency. Use cloud-agnostic IaC tools and modular configurations.",
+      "id": 42,
+      "question": "What are the challenges of using IaC in multi-cloud environments?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain methods to detect and correct configuration drift in IaC-managed environments.",
+      "hint": "Regularly apply IaC configurations, use monitoring tools to detect drift, and automate remediation processes.",
+      "id": 43,
+      "question": "How do you handle IaC configuration drift?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the role of backends in Terraform and their benefits.",
+      "hint": "Backends determine how Terraform stores state files and operations logs, enabling remote state storage and collaboration.",
+      "id": 44,
+      "question": "What is the purpose of Terraform backends?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how blue-green deployment strategies can be implemented using IaC.",
+      "hint": "Provision separate environments (blue and green) and switch traffic between them using IaC tools to minimize downtime and risk.",
+      "id": 45,
+      "question": "How do you handle blue-green deployments with IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "List and describe the key components of an Ansible playbook.",
+      "hint": "Components include tasks, variables, handlers, roles, and inventories, each defining specific aspects of configuration and automation.",
+      "id": 46,
+      "question": "What are the key components of an Ansible playbook?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the purpose of ARM templates in managing Azure infrastructure.",
+      "hint": "ARM templates provide a declarative syntax for deploying and managing Azure resources consistently and repeatedly.",
+      "id": 47,
+      "question": "What is the role of Azure Resource Manager (ARM) templates?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss best practices for ensuring security in IaC-managed environments.",
+      "hint": "Implement least privilege access, use encrypted secrets, regularly update IaC tools, and audit configurations for vulnerabilities.",
+      "id": 48,
+      "question": "How do you implement security best practices in IaC?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare Chef and Puppet in terms of functionality and use cases.",
+      "hint": "Chef uses a procedural approach with Ruby DSL, while Puppet uses a declarative approach with its own language. Both manage infrastructure configuration.",
+      "id": 49,
+      "question": "What are the differences between Chef and Puppet?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how IaC can be integrated into CI/CD pipelines to automate infrastructure provisioning and deployment.",
+      "hint": "Use CI/CD tools to trigger IaC scripts on code changes, automate testing and validation, and deploy infrastructure alongside application code.",
+      "id": 50,
+      "question": "How do you integrate IaC with CI/CD pipelines?"
+    }
+  ]
+}

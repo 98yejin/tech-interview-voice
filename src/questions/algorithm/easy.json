@@ -1,0 +1,305 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to iterate through the array and find the largest element.",
+      "id": 1,
+      "question": "Find the largest element in an array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to reverse the characters in a string.",
+      "id": 2,
+      "question": "Reverse a string."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to check if a given string reads the same forwards and backwards.",
+      "id": 3,
+      "question": "Check if a string is a palindrome."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to compute the factorial of a non-negative integer.",
+      "id": 4,
+      "question": "Find the factorial of a number."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to determine if a given number is a prime number.",
+      "id": 5,
+      "question": "Check if a number is prime."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to sum all the elements in an array.",
+      "id": 6,
+      "question": "Find the sum of elements in an array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to merge two sorted arrays into one sorted array.",
+      "id": 7,
+      "question": "Merge two sorted arrays."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the longest word in a string.",
+      "id": 8,
+      "question": "Find the length of the longest word in a string."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to count the number of vowels in a given string.",
+      "id": 9,
+      "question": "Count the number of vowels in a string."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to remove duplicate elements from an array.",
+      "id": 10,
+      "question": "Remove duplicates from an array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the common elements between two arrays.",
+      "id": 11,
+      "question": "Find the intersection of two arrays."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to find the missing number in an array of consecutive numbers.",
+      "id": 12,
+      "question": "Find the missing number in a sequence."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the first character that does not repeat in a string.",
+      "id": 13,
+      "question": "Find the first non-repeating character in a string."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to compute the GCD of two non-negative integers.",
+      "id": 14,
+      "question": "Find the greatest common divisor (GCD) of two numbers."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to compute the LCM of two non-negative integers.",
+      "id": 15,
+      "question": "Find the least common multiple (LCM) of two numbers."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to generate the first n terms of the Fibonacci sequence.",
+      "id": 16,
+      "question": "Generate the Fibonacci sequence up to n terms."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to find the contiguous subarray with the maximum sum.",
+      "id": 17,
+      "question": "Find the maximum sum subarray."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to determine if two strings are anagrams of each other.",
+      "id": 18,
+      "question": "Check if two strings are anagrams."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to perform binary search on a sorted array.",
+      "id": 19,
+      "question": "Implement a binary search algorithm."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to sort an array of numbers using the bubble sort algorithm.",
+      "id": 20,
+      "question": "Sort an array using bubble sort."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the median value of an array.",
+      "id": 21,
+      "question": "Find the median of an array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to reverse the elements of an array in place.",
+      "id": 22,
+      "question": "Reverse an array in place."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the second largest element in an array.",
+      "id": 23,
+      "question": "Find the second largest element in an array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to count the number of words in a given string.",
+      "id": 24,
+      "question": "Count the number of words in a string."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to sort an array using the insertion sort algorithm.",
+      "id": 25,
+      "question": "Implement the insertion sort algorithm."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to find the minimum element in a rotated sorted array.",
+      "id": 26,
+      "question": "Find the minimum element in a rotated sorted array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to rotate the elements of an array to the right by k steps.",
+      "id": 27,
+      "question": "Rotate an array to the right by k steps."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to merge two sorted linked lists into one sorted linked list.",
+      "id": 28,
+      "question": "Merge two sorted linked lists."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to implement a queue data structure using two stacks.",
+      "id": 29,
+      "question": "Implement a queue using two stacks."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the maximum depth of a binary tree.",
+      "id": 30,
+      "question": "Find the depth of a binary tree."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to check if a binary tree is height-balanced.",
+      "id": 31,
+      "question": "Check if a binary tree is balanced."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the sum of two numbers without using the + or - operators.",
+      "id": 32,
+      "question": "Find the sum of two numbers without using arithmetic operators."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to implement a stack data structure using a linked list.",
+      "id": 33,
+      "question": "Implement a stack using a linked list."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the common elements in three sorted arrays.",
+      "id": 34,
+      "question": "Find the common elements in three sorted arrays."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the maximum product of any two integers in an array.",
+      "id": 35,
+      "question": "Find the maximum product of two integers in an array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to determine if a string has all unique characters.",
+      "id": 36,
+      "question": "Check if a string has all unique characters."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to remove all vowels from a given string.",
+      "id": 37,
+      "question": "Remove all vowels from a string."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the longest common prefix string amongst an array of strings.",
+      "id": 38,
+      "question": "Find the longest common prefix among a set of strings."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to determine if a given number is a power of two.",
+      "id": 39,
+      "question": "Check if a number is a power of two."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to find the missing number in an array containing numbers from 1 to n.",
+      "id": 40,
+      "question": "Find the missing number in an array of 1 to n."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the element that appears more than n/2 times in an array.",
+      "id": 41,
+      "question": "Find the majority element in an array."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write an algorithm to find the contiguous subarray within an array that has the largest product.",
+      "id": 42,
+      "question": "Find the contiguous subarray with the maximum product."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to check if a binary tree is symmetric around its center.",
+      "id": 43,
+      "question": "Check if a binary tree is a mirror of itself."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the node at which the intersection of two singly linked lists begins.",
+      "id": 44,
+      "question": "Find the intersection point of two linked lists."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to detect the node where the cycle begins in a circular linked list.",
+      "id": 45,
+      "question": "Find the node at which the cycle begins in a linked list."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the inorder predecessor of a given node in a BST.",
+      "id": 46,
+      "question": "Find the inorder predecessor of a node in a binary search tree."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to check if a given string is a valid shuffle of two other strings.",
+      "id": 47,
+      "question": "Check if a string is a valid shuffle of two strings."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to find the longest palindromic substring in a given string.",
+      "id": 48,
+      "question": "Find the longest palindrome in a string."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to determine if a binary tree is a valid binary search tree.",
+      "id": 49,
+      "question": "Check if a binary tree is a valid BST."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Write a function to perform DFS traversal on a graph.",
+      "id": 50,
+      "question": "Implement depth-first search (DFS) for a graph."
+    }
+  ],
+  "title": "Easy Algorithm Questions"
+}

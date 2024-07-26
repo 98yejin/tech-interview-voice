@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the process of verifying the identity of a user or system.",
+      "hint": "Authentication confirms the identity of a user through credentials like passwords, biometrics, or tokens.",
+      "id": 1,
+      "question": "What is authentication and how does it work?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the process of determining if an authenticated user has permission to perform a specific action.",
+      "hint": "Authorization checks permissions and access rights after authentication.",
+      "id": 2,
+      "question": "What is authorization and how does it differ from authentication?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss how MFA enhances security by requiring multiple forms of verification.",
+      "hint": "MFA uses two or more factors such as passwords, SMS codes, or biometric data.",
+      "id": 3,
+      "question": "Explain the concept of multi-factor authentication (MFA)."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain these protocols for authorization and authentication.",
+      "hint": "OAuth allows third-party applications to access user data, while OpenID Connect builds on OAuth for authentication.",
+      "id": 4,
+      "question": "How do OAuth and OpenID Connect work?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe this security principle and its importance in authorization.",
+      "hint": "Users and systems are given the minimum access necessary to perform their functions.",
+      "id": 5,
+      "question": "What is the principle of least privilege?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss JSON Web Tokens and their role in authentication and authorization.",
+      "hint": "JWT tokens securely transmit information between parties and are often used for authentication.",
+      "id": 6,
+      "question": "What are JWT tokens and how are they used?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how RBAC works and its benefits.",
+      "hint": "RBAC assigns permissions to roles rather than individuals, simplifying management.",
+      "id": 7,
+      "question": "Explain role-based access control (RBAC)."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of SSO and its benefits.",
+      "hint": "SSO allows users to authenticate once and gain access to multiple systems.",
+      "id": 8,
+      "question": "What is single sign-on (SSO) and how does it work?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe this vulnerability and strategies to mitigate it.",
+      "hint": "SQL injection exploits vulnerabilities in SQL queries; use parameterized queries and input validation to prevent it.",
+      "id": 9,
+      "question": "What is SQL injection and how can it be prevented?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain XSS and how it can be prevented.",
+      "hint": "XSS injects malicious scripts into web pages; prevent it by sanitizing user input and using Content Security Policy (CSP).",
+      "id": 10,
+      "question": "What is cross-site scripting (XSS)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe CSRF and methods to mitigate it.",
+      "hint": "CSRF tricks a user into performing unwanted actions; prevent it using CSRF tokens and same-site cookies.",
+      "id": 11,
+      "question": "What is cross-site request forgery (CSRF)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the differences, advantages, and use cases of each.",
+      "hint": "Symmetric encryption uses the same key for encryption and decryption; asymmetric uses a public/private key pair.",
+      "id": 12,
+      "question": "What is the difference between symmetric and asymmetric encryption?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of hashing and its applications.",
+      "hint": "Hashing converts data into a fixed-size hash value, used for data integrity and password storage.",
+      "id": 13,
+      "question": "What is hashing and how is it used in security?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe MitM attacks and how to prevent them.",
+      "hint": "MitM intercepts communication between parties; use encryption and secure protocols to prevent it.",
+      "id": 14,
+      "question": "What is a man-in-the-middle (MitM) attack?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare encryption and hashing and their use cases.",
+      "hint": "Encryption is reversible and used for data protection; hashing is one-way and used for integrity verification.",
+      "id": 15,
+      "question": "What is the difference between encryption and hashing?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how digital signatures work and their importance.",
+      "hint": "Digital signatures use asymmetric encryption to verify the authenticity and integrity of data.",
+      "id": 16,
+      "question": "Explain the concept of a digital signature."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain brute-force attacks and methods to defend against them.",
+      "hint": "Brute-force attacks try all possible combinations to guess passwords; use strong passwords and rate limiting to defend against them.",
+      "id": 17,
+      "question": "What is a brute-force attack?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the concept and benefits of 2FA.",
+      "hint": "2FA requires two forms of verification, such as a password and a mobile code, enhancing security.",
+      "id": 18,
+      "question": "What is two-factor authentication (2FA)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain PKI and its role in securing communications.",
+      "hint": "PKI manages digital certificates and public keys to secure communications and authenticate users.",
+      "id": 19,
+      "question": "What is public key infrastructure (PKI)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe security tokens and their role in authentication.",
+      "hint": "Security tokens are physical or digital devices used to prove identity in authentication processes.",
+      "id": 20,
+      "question": "What is a security token and how is it used?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept and use of ACLs in authorization.",
+      "hint": "ACLs specify which users or system processes are granted access to objects and what operations are allowed.",
+      "id": 21,
+      "question": "What is an access control list (ACL)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss various techniques used to attack passwords.",
+      "hint": "Common methods include brute-force attacks, dictionary attacks, and phishing.",
+      "id": 22,
+      "question": "What are the common methods of password attacks?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what a security audit is and its purpose.",
+      "hint": "A security audit is a comprehensive assessment of an organization's security policies, procedures, and systems.",
+      "id": 23,
+      "question": "Explain the concept of a security audit."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the functions and types of firewalls.",
+      "hint": "Firewalls monitor and control incoming and outgoing network traffic based on predetermined security rules.",
+      "id": 24,
+      "question": "What is the role of a firewall in network security?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain social engineering attacks and prevention strategies.",
+      "hint": "Social engineering manipulates people into divulging confidential information; prevent it with user education and awareness.",
+      "id": 25,
+      "question": "What is social engineering and how can it be prevented?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the strategy of using multiple layers of security.",
+      "hint": "Defense in depth employs multiple security measures to protect information, ensuring that if one layer fails, others still provide protection.",
+      "id": 26,
+      "question": "What is the principle of defense in depth?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain zero-day vulnerabilities and their implications.",
+      "hint": "Zero-day vulnerabilities are unknown to the software vendor and can be exploited by attackers before a fix is released.",
+      "id": 27,
+      "question": "What is a zero-day vulnerability?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss why keeping software up-to-date is crucial for security.",
+      "hint": "Regular updates fix security vulnerabilities, patch bugs, and provide new features.",
+      "id": 28,
+      "question": "What is the importance of regular software updates?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain DoS attacks and how they disrupt services.",
+      "hint": "DoS attacks overwhelm a system with traffic, making it unavailable to users; mitigation includes rate limiting and traffic filtering.",
+      "id": 29,
+      "question": "What is a denial-of-service (DoS) attack?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare these types of hackers and their activities.",
+      "hint": "White-hat hackers are ethical, black-hat hackers have malicious intent, and gray-hat hackers operate between these extremes.",
+      "id": 30,
+      "question": "What is the difference between white-hat, black-hat, and gray-hat hackers?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the process and purpose of vulnerability assessments.",
+      "hint": "A vulnerability assessment identifies and evaluates security weaknesses in systems, networks, and applications.",
+      "id": 31,
+      "question": "What is a vulnerability assessment?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss how network segmentation enhances security.",
+      "hint": "Network segmentation divides a network into smaller, isolated segments to limit the spread of attacks and improve performance.",
+      "id": 32,
+      "question": "Explain the concept of network segmentation."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose and functioning of a honeypot.",
+      "hint": "A honeypot is a decoy system set up to attract and monitor attackers, helping to gather intelligence and improve defenses.",
+      "id": 33,
+      "question": "What is a honeypot in cybersecurity?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the concept and benefits of 2FA.",
+      "hint": "2FA requires two forms of verification, such as a password and a mobile code, enhancing security.",
+      "id": 34,
+      "question": "What is two-factor authentication (2FA)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain PKI and its role in securing communications.",
+      "hint": "PKI manages digital certificates and public keys to secure communications and authenticate users.",
+      "id": 35,
+      "question": "What is public key infrastructure (PKI)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe security tokens and their role in authentication.",
+      "hint": "Security tokens are physical or digital devices used to prove identity in authentication processes.",
+      "id": 36,
+      "question": "What is a security token and how is it used?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept and use of ACLs in authorization.",
+      "hint": "ACLs specify which users or system processes are granted access to objects and what operations are allowed.",
+      "id": 37,
+      "question": "What is an access control list (ACL)?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss various techniques used to attack passwords.",
+      "hint": "Common methods include brute-force attacks, dictionary attacks, and phishing.",
+      "id": 38,
+      "question": "What are the common methods of password attacks?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what a security audit is and its purpose.",
+      "hint": "A security audit is a comprehensive assessment of an organization's security policies, procedures, and systems.",
+      "id": 39,
+      "question": "Explain the concept of a security audit."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the functions and types of firewalls.",
+      "hint": "Firewalls monitor and control incoming and outgoing network traffic based on predetermined security rules.",
+      "id": 40,
+      "question": "What is the role of a firewall in network security?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain social engineering attacks and prevention strategies.",
+      "hint": "Social engineering manipulates people into divulging confidential information; prevent it with user education and awareness.",
+      "id": 41,
+      "question": "What is social engineering and how can it be prevented?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the strategy of using multiple layers of security.",
+      "hint": "Defense in depth employs multiple security measures to protect information, ensuring that if one layer fails, others still provide protection.",
+      "id": 42,
+      "question": "What is the principle of defense in depth?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain zero-day vulnerabilities and their implications.",
+      "hint": "Zero-day vulnerabilities are unknown to the software vendor and can be exploited by attackers before a fix is released.",
+      "id": 43,
+      "question": "What is a zero-day vulnerability?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss why keeping software up-to-date is crucial for security.",
+      "hint": "Regular updates fix security vulnerabilities, patch bugs, and provide new features.",
+      "id": 44,
+      "question": "What is the importance of regular software updates?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain DoS attacks and how they disrupt services.",
+      "hint": "DoS attacks overwhelm a system with traffic, making it unavailable to users; mitigation includes rate limiting and traffic filtering.",
+      "id": 45,
+      "question": "What is a denial-of-service (DoS) attack?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Compare these types of hackers and their activities.",
+      "hint": "White-hat hackers are ethical, black-hat hackers have malicious intent, and gray-hat hackers operate between these extremes.",
+      "id": 46,
+      "question": "What is the difference between white-hat, black-hat, and gray-hat hackers?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the process and purpose of vulnerability assessments.",
+      "hint": "A vulnerability assessment identifies and evaluates security weaknesses in systems, networks, and applications.",
+      "id": 47,
+      "question": "What is a vulnerability assessment?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss how network segmentation enhances security.",
+      "hint": "Network segmentation divides a network into smaller, isolated segments to limit the spread of attacks and improve performance.",
+      "id": 48,
+      "question": "Explain the concept of network segmentation."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the purpose and functioning of a honeypot.",
+      "hint": "A honeypot is a decoy system set up to attract and monitor attackers, helping to gather intelligence and improve defenses.",
+      "id": 49,
+      "question": "What is a honeypot in cybersecurity?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain social engineering attacks and prevention strategies.",
+      "hint": "Social engineering manipulates people into divulging confidential information; prevent it with user education and awareness.",
+      "id": 50,
+      "question": "What is social engineering and how can it be prevented?"
+    }
+  ],
+  "title": "Security Questions"
+}

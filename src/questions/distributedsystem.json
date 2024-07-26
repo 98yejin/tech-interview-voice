@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe the CAP theorem and its implications for distributed systems.",
+      "hint": "Consistency, Availability, Partition Tolerance; choose two out of three.",
+      "id": 1,
+      "question": "Explain the CAP theorem."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of eventual consistency in distributed databases.",
+      "hint": "Data will become consistent over time, though not immediately.",
+      "id": 2,
+      "question": "What is eventual consistency?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for consistency, partitioning, and fault tolerance.",
+      "hint": "Consider using hashing for partitioning and replication for fault tolerance.",
+      "id": 3,
+      "question": "How would you design a distributed cache?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the benefits and drawbacks of monolithic and microservices architectures.",
+      "hint": "Monolithic is a single unified system; microservices are small, independently deployable services.",
+      "id": 4,
+      "question": "What is the difference between a monolithic and a microservices architecture?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss strategies for ensuring data consistency across multiple microservices.",
+      "hint": "Consider eventual consistency, two-phase commit, and saga patterns.",
+      "id": 5,
+      "question": "How do you handle data consistency in microservices?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how leader election works and why it is necessary.",
+      "hint": "Leader election algorithms include Raft and Paxos.",
+      "id": 6,
+      "question": "Explain the concept of leader election in distributed systems."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for replication, fault tolerance, and scalability.",
+      "hint": "Consider using HDFS or GFS as models.",
+      "id": 7,
+      "question": "How would you design a distributed file system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain why consensus is important and give examples of consensus algorithms.",
+      "hint": "Consensus ensures agreement among distributed nodes; examples include Paxos and Raft.",
+      "id": 8,
+      "question": "What is the role of consensus algorithms in distributed systems?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for log aggregation, storage, and querying.",
+      "hint": "Consider using a centralized log collector like Elasticsearch, Logstash, and Kibana (ELK stack).",
+      "id": 9,
+      "question": "Design a distributed logging system."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the various challenges and potential solutions.",
+      "hint": "Network partitions, latency, replication lag, and consistency models.",
+      "id": 10,
+      "question": "What are the challenges of maintaining consistency in a distributed database?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what sharding is and how it is used in distributed systems.",
+      "hint": "Sharding partitions data across multiple servers to improve performance and scalability.",
+      "id": 11,
+      "question": "Explain the concept of sharding."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for real-time delivery, fault tolerance, and user segmentation.",
+      "hint": "Use message queues, pub/sub systems, and load balancing.",
+      "id": 12,
+      "question": "How would you design a scalable notification system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the concept of quorum and its use in ensuring consistency.",
+      "hint": "A quorum is the minimum number of votes required for a decision in a distributed system.",
+      "id": 13,
+      "question": "What is a quorum in distributed systems?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for task distribution, fault tolerance, and scalability.",
+      "hint": "Use distributed queues and worker nodes, and handle retries and failures.",
+      "id": 14,
+      "question": "Design a distributed task scheduling system."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the importance of load balancing and different load balancing strategies.",
+      "hint": "Load balancing distributes incoming traffic across multiple servers to ensure availability and performance.",
+      "id": 15,
+      "question": "What is the role of load balancing in distributed systems?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for scalability, fault tolerance, and accuracy.",
+      "hint": "Use token bucket or leaky bucket algorithms, and consider distributed data stores for state management.",
+      "id": 16,
+      "question": "How would you design a distributed rate limiting system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what a DHT is and how it is used in distributed systems.",
+      "hint": "DHTs provide a scalable way to store and retrieve data across a distributed network using consistent hashing.",
+      "id": 17,
+      "question": "Explain the concept of a distributed hash table (DHT)."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss different approaches to managing transactions across multiple distributed systems.",
+      "hint": "Consider two-phase commit, three-phase commit, and saga patterns.",
+      "id": 18,
+      "question": "How do you handle distributed transactions?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the trade-offs and how they relate to the CAP theorem.",
+      "hint": "Stronger consistency often reduces availability and vice versa.",
+      "id": 19,
+      "question": "What are the trade-offs between consistency and availability?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for data partitioning, consistency, and fault tolerance.",
+      "hint": "Consider using geo-replication, sharding, and eventual consistency.",
+      "id": 20,
+      "question": "Design a distributed database for a global e-commerce platform."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe different types of data replication and their use cases.",
+      "hint": "Synchronous vs. asynchronous replication, master-slave vs. multi-master replication.",
+      "id": 21,
+      "question": "Explain the concept of data replication."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for message ordering, fault tolerance, and scalability.",
+      "hint": "Consider using a system like Apache Kafka or RabbitMQ.",
+      "id": 22,
+      "question": "How would you design a distributed queue?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how heartbeats are used to monitor the health of nodes in a distributed system.",
+      "hint": "Heartbeats are periodic signals sent between nodes to indicate they are alive and functioning.",
+      "id": 23,
+      "question": "What is the role of heartbeats in distributed systems?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for indexing, querying, and fault tolerance.",
+      "hint": "Consider using a distributed index and partitioning the data.",
+      "id": 24,
+      "question": "Design a distributed search engine."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what gossip protocols are and how they are used.",
+      "hint": "Gossip protocols spread information throughout the system in a decentralized manner.",
+      "id": 25,
+      "question": "What is the role of gossip protocols in distributed systems?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss methods for ensuring time synchronization across nodes.",
+      "hint": "Use protocols like NTP, PTP, or logical clocks like Lamport timestamps.",
+      "id": 26,
+      "question": "How do you handle time synchronization in distributed systems?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what a distributed ledger is and its use cases.",
+      "hint": "A distributed ledger is a decentralized database maintained by multiple participants.",
+      "id": 27,
+      "question": "Explain the concept of a distributed ledger."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for data collection, storage, and alerting.",
+      "hint": "Consider using Prometheus for metrics collection and Grafana for visualization.",
+      "id": 28,
+      "question": "Design a distributed monitoring system."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain what idempotence is and why it is important.",
+      "hint": "Idempotence ensures that multiple identical requests have the same effect as a single request.",
+      "id": 29,
+      "question": "What is the importance of idempotence in distributed systems?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for data partitioning, fault tolerance, and scalability.",
+      "hint": "Consider using frameworks like Hadoop or Spark.",
+      "id": 30,
+      "question": "How would you design a distributed system for processing large datasets?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe what split-brain is and how to mitigate it.",
+      "hint": "Split-brain occurs when a network partition causes nodes to form separate clusters; mitigation includes quorum-based approaches.",
+      "id": 31,
+      "question": "Explain the concept of split-brain in distributed systems."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for message delivery guarantees and fault tolerance.",
+      "hint": "Use pub/sub models, message queues, and consider exactly-once delivery semantics.",
+      "id": 32,
+      "question": "How would you design a distributed messaging system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain why distributed transactions are used and how they work.",
+      "hint": "Distributed transactions ensure atomicity across multiple nodes; consider using two-phase commit or saga patterns.",
+      "id": 33,
+      "question": "What is the role of distributed transactions?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for partitioning, replication, and consistency.",
+      "hint": "Consider using consistent hashing and replication strategies.",
+      "id": 34,
+      "question": "Design a distributed key-value store."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain what backpressure is and how it helps maintain system stability.",
+      "hint": "Backpressure helps prevent overload by controlling the rate of data flow.",
+      "id": 35,
+      "question": "What is the importance of backpressure in distributed systems?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for consistency, fault tolerance, and scalability.",
+      "hint": "Consider using systems like ZooKeeper or Consul.",
+      "id": 36,
+      "question": "How would you design a distributed configuration management system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the importance of metadata and how it is managed.",
+      "hint": "Metadata includes information about file locations, access control, and data distribution.",
+      "id": 37,
+      "question": "What is the role of metadata in distributed file systems?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for data ingestion, processing, and querying.",
+      "hint": "Consider using stream processing frameworks like Apache Kafka and Apache Flink.",
+      "id": 38,
+      "question": "Design a distributed system for real-time analytics."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain the problem and its implications for distributed systems.",
+      "hint": "The Byzantine Generals Problem addresses the challenge of achieving consensus in the presence of faulty nodes.",
+      "id": 39,
+      "question": "What is the significance of the Byzantine Generals Problem?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Include considerations for scalability, fault tolerance, and efficiency.",
+      "hint": "Use DNS-based load balancing, hardware load balancers, or software load balancers like HAProxy.",
+      "id": 40,
+      "question": "How would you design a distributed load balancing system?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Describe how quorum-based replication works and its benefits.",
+      "hint": "Quorum-based replication ensures consistency by requiring a majority of nodes to agree on updates.",
+      "id": 41,
+      "question": "Explain the concept of quorum-based replication."
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for data partitioning, replication, and latency.",
+      "hint": "Consider using geo-replication, eventual consistency, and partitioning strategies.",
+      "id": 42,
+      "question": "How would you design a globally distributed database?"
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Discuss the challenges and potential solutions for achieving consensus in distributed systems.",
+      "hint": "Network partitions, latency, and node failures; consider using consensus algorithms like Paxos or Raft.",
+      "id": 43,
+      "question": "What are the challenges of distributed consensus?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for scalability, fault tolerance, and load balancing.",
+      "hint": "Use a combination of CDN, load balancers, and horizontally scalable web servers.",
+      "id": 44,
+      "question": "Design a distributed system for handling large-scale web traffic."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how vector clocks work and their use cases.",
+      "hint": "Vector clocks help determine the partial ordering of events in distributed systems.",
+      "id": 45,
+      "question": "What is the significance of vector clocks in distributed systems?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for consistency, fault tolerance, and security.",
+      "hint": "Consider using distributed databases with strong consistency, encryption, and secure communication protocols.",
+      "id": 46,
+      "question": "How would you design a distributed system for processing financial transactions?"
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Discuss the significance of partition tolerance and how it affects system design.",
+      "hint": "Partition tolerance ensures that the system continues to operate despite network partitions.",
+      "id": 47,
+      "question": "What is the importance of partition tolerance in distributed systems?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for scalability, low latency, and fault tolerance.",
+      "hint": "Use event-driven architecture, in-memory databases, and redundancy.",
+      "id": 48,
+      "question": "Design a distributed system for a real-time bidding platform."
+    },
+    {
+      "appropriate_time": "5 minutes",
+      "description": "Explain how consistent hashing works and its benefits.",
+      "hint": "Consistent hashing helps evenly distribute data across nodes and minimizes rebalancing when nodes are added or removed.",
+      "id": 49,
+      "question": "What is the significance of consistent hashing in distributed systems?"
+    },
+    {
+      "appropriate_time": "15 minutes",
+      "description": "Include considerations for content delivery, scalability, and fault tolerance.",
+      "hint": "Use CDN, adaptive bitrate streaming, and distributed storage solutions.",
+      "id": 50,
+      "question": "How would you design a distributed system for a video streaming service?"
+    }
+  ],
+  "title": "Distributed Systems"
+}

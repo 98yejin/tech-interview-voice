@@ -1,0 +1,355 @@
+{
+  "questions": [
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the kth largest element in an unsorted array.",
+      "hint": "Consider using a min-heap or quickselect algorithm.",
+      "id": 1,
+      "question": "Find the kth largest element in an array."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to group anagrams from a list of strings.",
+      "hint": "Sort each string and use it as a key in a hash map.",
+      "id": 2,
+      "question": "Group anagrams together."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the length of the longest substring without repeating characters.",
+      "hint": "Use a sliding window approach with a hash set.",
+      "id": 3,
+      "question": "Longest substring without repeating characters."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to return an array such that each element is the product of all elements except itself.",
+      "hint": "Use two passes, one for left product and one for right product.",
+      "id": 4,
+      "question": "Product of array except self."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to sort a linked list in O(n log n) time and constant space complexity.",
+      "hint": "Consider using merge sort.",
+      "id": 5,
+      "question": "Sort a linked list in O(n log n) time and constant space."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the minimum number of steps to reduce a number to zero by either subtracting 1 or dividing by 2.",
+      "hint": "Use a recursive approach or dynamic programming.",
+      "id": 6,
+      "question": "Find the minimum number of steps to reduce a number to zero."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find all permutations of a given string.",
+      "hint": "Use backtracking.",
+      "id": 7,
+      "question": "Find all permutations of a string."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to validate if a given binary tree is a binary search tree.",
+      "hint": "Perform an in-order traversal and check if the elements are in ascending order.",
+      "id": 8,
+      "question": "Validate a binary search tree."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a data structure for Least Recently Used (LRU) cache.",
+      "hint": "Use a hash map for fast access and a doubly linked list to keep track of the order.",
+      "id": 9,
+      "question": "Implement an LRU cache."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the median of two sorted arrays.",
+      "hint": "Use binary search on the smaller array.",
+      "id": 10,
+      "question": "Find the median of two sorted arrays."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the longest increasing subsequence in an array.",
+      "hint": "Use dynamic programming or a combination of binary search and dynamic programming.",
+      "id": 11,
+      "question": "Find the longest increasing subsequence."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the lowest common ancestor of two nodes in a binary tree.",
+      "hint": "Use recursion to traverse the tree from top to bottom.",
+      "id": 12,
+      "question": "Find the lowest common ancestor of two nodes in a binary tree."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a trie data structure.",
+      "hint": "Use a tree-like structure with nodes representing each character.",
+      "id": 13,
+      "question": "Implement a trie (prefix tree)."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the maximum subarray sum using the divide and conquer method.",
+      "hint": "Split the array into two halves and consider the maximum subarray that crosses the midpoint.",
+      "id": 14,
+      "question": "Find the maximum subarray sum using divide and conquer."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find all unique combinations of k numbers that add up to n.",
+      "hint": "Use backtracking.",
+      "id": 15,
+      "question": "Find all combinations of k numbers that sum up to n."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the shortest transformation sequence from start to end word by changing only one letter at a time.",
+      "hint": "Use breadth-first search.",
+      "id": 16,
+      "question": "Word ladder problem."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to rotate an NxN matrix by 90 degrees clockwise.",
+      "hint": "Transpose the matrix and then reverse each row.",
+      "id": 17,
+      "question": "Rotate a matrix by 90 degrees."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to count the number of hits in the past 5 minutes.",
+      "hint": "Use a queue or a fixed-size array to store timestamps.",
+      "id": 18,
+      "question": "Design a hit counter."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the number of ways to decode a given encoded message.",
+      "hint": "Use dynamic programming.",
+      "id": 19,
+      "question": "Decode ways (number of ways to decode a string)."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the longest palindromic subsequence in a given string.",
+      "hint": "Use dynamic programming.",
+      "id": 20,
+      "question": "Find the longest palindromic subsequence."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to determine if you can finish all courses given prerequisites in a directed graph.",
+      "hint": "Use topological sorting with depth-first search or Kahn's algorithm.",
+      "id": 21,
+      "question": "Course schedule problem."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the number of islands in a given grid of 1s (land) and 0s (water).",
+      "hint": "Use depth-first search or breadth-first search.",
+      "id": 22,
+      "question": "Find the number of islands."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the largest rectangle area in a histogram.",
+      "hint": "Use a stack to store indices of the histogram bars.",
+      "id": 23,
+      "question": "Find the largest rectangle in a histogram."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find a peak element in an array where an element is greater than its neighbors.",
+      "hint": "Use binary search.",
+      "id": 24,
+      "question": "Find the peak element in an array."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a stack that supports push, pop, top, and retrieving the minimum element in constant time.",
+      "hint": "Use an auxiliary stack to keep track of minimum values.",
+      "id": 25,
+      "question": "Implement a min stack."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a max heap data structure.",
+      "hint": "Use an array to represent the heap and implement heapify operations.",
+      "id": 26,
+      "question": "Implement a max heap."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find all possible combinations of characters in a string.",
+      "hint": "Use backtracking.",
+      "id": 27,
+      "question": "Find all possible combinations of a string."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the diameter of a binary tree (the length of the longest path between any two nodes).",
+      "hint": "Use depth-first search and keep track of the maximum diameter.",
+      "id": 28,
+      "question": "Find the diameter of a binary tree."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to sort an array using the merge sort algorithm.",
+      "hint": "Divide the array into halves, sort each half, and then merge the sorted halves.",
+      "id": 29,
+      "question": "Implement the merge sort algorithm."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find all subsets of a given set.",
+      "hint": "Use backtracking or iterative approach.",
+      "id": 30,
+      "question": "Find all subsets of a set."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to clone a directed or undirected graph.",
+      "hint": "Use depth-first search or breadth-first search and a hash map to keep track of visited nodes.",
+      "id": 31,
+      "question": "Clone a graph."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the intersection point of two linked lists.",
+      "hint": "Use two pointers and traverse both lists to find the intersection point.",
+      "id": 32,
+      "question": "Find the intersection of two linked lists."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a priority queue data structure.",
+      "hint": "Use a heap data structure.",
+      "id": 33,
+      "question": "Implement a priority queue."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a circular buffer data structure.",
+      "hint": "Use a fixed-size array and two pointers to keep track of the start and end positions.",
+      "id": 34,
+      "question": "Implement a circular buffer."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the minimum window substring which contains all the characters of a given string.",
+      "hint": "Use a sliding window approach with two pointers.",
+      "id": 35,
+      "question": "Find the minimum window substring."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to sort an array using the quick sort algorithm.",
+      "hint": "Choose a pivot element and partition the array around the pivot.",
+      "id": 36,
+      "question": "Implement the quick sort algorithm."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to design a stack that supports push, pop, top, getMin, and getMax in constant time.",
+      "hint": "Use two auxiliary stacks to keep track of minimum and maximum values.",
+      "id": 37,
+      "question": "Design a stack that supports getMin and getMax operations."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the smallest missing positive integer in an unsorted array.",
+      "hint": "Use the array indices to mark the presence of elements.",
+      "id": 38,
+      "question": "Find the first missing positive integer."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to sort an array using the radix sort algorithm.",
+      "hint": "Sort elements based on individual digits using counting sort as a subroutine.",
+      "id": 39,
+      "question": "Implement the radix sort algorithm."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to check if one binary tree is a subtree of another binary tree.",
+      "hint": "Use a recursive approach to compare the trees.",
+      "id": 40,
+      "question": "Check if a binary tree is a subtree of another binary tree."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the shortest path in a binary matrix (0s and 1s) from the top-left corner to the bottom-right corner.",
+      "hint": "Use breadth-first search.",
+      "id": 41,
+      "question": "Find the shortest path in a binary matrix."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to check if a string can be segmented into a sequence of one or more dictionary words.",
+      "hint": "Use dynamic programming.",
+      "id": 42,
+      "question": "Check if a string can be segmented into a space-separated sequence of dictionary words."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the longest consecutive sequence of elements in an unsorted array.",
+      "hint": "Use a hash set to store elements and check for consecutive sequences.",
+      "id": 43,
+      "question": "Find the longest consecutive sequence in an array."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the k most frequent elements in an array.",
+      "hint": "Use a hash map to count frequencies and a heap to find the top k elements.",
+      "id": 44,
+      "question": "Find the top k frequent elements in an array."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a balanced binary search tree such as an AVL or Red-Black Tree.",
+      "hint": "Implement rotation operations to maintain balance.",
+      "id": 45,
+      "question": "Implement a balanced binary search tree (AVL or Red-Black Tree)."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the maximum path sum in a binary tree.",
+      "hint": "Use depth-first search to explore all paths and keep track of the maximum sum.",
+      "id": 46,
+      "question": "Find the maximum path sum in a binary tree."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to perform topological sorting on a directed acyclic graph.",
+      "hint": "Use depth-first search or Kahn's algorithm.",
+      "id": 47,
+      "question": "Implement a topological sort algorithm."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find the maximum area of an island in a grid of 0s and 1s.",
+      "hint": "Use depth-first search or breadth-first search.",
+      "id": 48,
+      "question": "Find the maximum area of an island in a grid."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Design and implement a suffix tree data structure.",
+      "hint": "Use a tree-like structure with nodes representing suffixes.",
+      "id": 49,
+      "question": "Implement a suffix tree."
+    },
+    {
+      "appropriate_time": "10 minutes",
+      "description": "Write a function to find all permutations of a given array.",
+      "hint": "Use backtracking.",
+      "id": 50,
+      "question": "Find all permutations of an array."
+    }
+  ],
+  "title": "Medium Algorithm Questions"
+}
