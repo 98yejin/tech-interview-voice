@@ -19,9 +19,13 @@ const HomePage: React.FC = () => {
   useEffect(() => {
     const loadVoices = () => {
       const voices = speechSynthesis.getVoices();
-      setVoices(voices);
-      if (voices.length > 0) {
-        setSelectedVoice(voices[0].name);
+      const englishVoices = voices.filter((voice) =>
+        voice.lang.startsWith("en")
+      );
+
+      setVoices(englishVoices);
+      if (englishVoices.length > 0) {
+        setSelectedVoice(englishVoices[0].name);
       }
     };
 

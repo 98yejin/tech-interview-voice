@@ -88,6 +88,11 @@ export default function PersistentDrawerLeft() {
     navigate("/");
   };
 
+  const handleMenuClick = (path: string) => () => {
+    path = path.slice(2, -5);
+    navigate(`/questions/${path}`);
+  };
+
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -155,7 +160,11 @@ export default function PersistentDrawerLeft() {
         <Divider />
         <List>
           {questions.map((question, index) => (
-            <ListItem key={question.path} disablePadding>
+            <ListItem
+              key={question.path}
+              disablePadding
+              onClick={handleMenuClick(question.path)}
+            >
               <ListItemButton key={index}>
                 <ListItemText primary={question.content.title} />
               </ListItemButton>
