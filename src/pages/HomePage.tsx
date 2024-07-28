@@ -56,8 +56,18 @@ const HomePage: React.FC = () => {
   return (
     <Box>
       <PermanentDrawerLeft />
-      <Box sx={{ width: 300, margin: "0 auto", textAlign: "center", mt: 5 }}>
-        <Typography variant="h4" gutterBottom>
+      <Box
+        sx={{
+          width: 300,
+          margin: "0 auto",
+          textAlign: "center",
+          mt: 5,
+          "& > *": {
+            marginBottom: "1.5rem",
+          },
+        }}
+      >
+        <Typography variant="h5" gutterBottom>
           Practice Technical Interview with multiple accents and speeds
         </Typography>
         <TextField
@@ -80,6 +90,7 @@ const HomePage: React.FC = () => {
         <FormControl fullWidth>
           <InputLabel id="voice-select-label">Voice</InputLabel>
           <Select
+            label="Voice"
             labelId="voice-select-label"
             value={selectedVoice}
             onChange={handleVoiceChange}
@@ -94,7 +105,6 @@ const HomePage: React.FC = () => {
         <Button variant="contained" color="primary" onClick={handleSpeak}>
           Speak
         </Button>
-        <Typography>Rate: {rate}</Typography>
       </Box>
     </Box>
   );
